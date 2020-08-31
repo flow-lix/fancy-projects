@@ -1,11 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://F:/distributed/github/sofa-bolt/src/main/java/com/alipay/remoting/rpc/protocol/RpcCommandEncoderV2.java" description="out.writeByte(cmd.getType());" line="80" />
-    <bookmark url="jar://D:/tools/maven/repository/org/apache/httpcomponents/httpasyncclient/4.1.4/httpasyncclient-4.1.4-sources.jar!/org/apache/http/impl/nio/conn/PoolingNHttpClientConnectionManager.java" description="this.pool = new CPool(ioreactor," line="191" />
+    <bookmark url="file://$PROJECT_DIR$/../../ali/sofa-bolt/src/main/java/com/alipay/remoting/rpc/RpcServer.java" description="super(port);" line="195" />
+    <bookmark url="file://$PROJECT_DIR$/../../ali/sofa-bolt/src/main/java/com/alipay/remoting/rpc/RpcClient.java" description="this.connectionManager.startup();" line="141" />
+    <bookmark url="file://$PROJECT_DIR$/../../ali/sofa-bolt/src/main/java/com/alipay/remoting/rpc/RpcClient.java" description="this.taskScanner.startup();" line="145" />
+    <bookmark url="file://$PROJECT_DIR$/../../ali/sofa-bolt/src/main/java/com/alipay/remoting/rpc/RpcClient.java" description="connectionMonitor.startup();" line="155" />
+    <bookmark url="file://$PROJECT_DIR$/../../ali/sofa-bolt/src/main/java/com/alipay/remoting/rpc/RpcClient.java" description="reconnectManager.startup();" line="160" />
+    <bookmark url="file://$PROJECT_DIR$/../../ali/sofa-bolt/src/main/java/com/alipay/remoting/rpc/RpcClient.java" description="userProcessor.startup();" line="125" />
+    <bookmark url="file://$PROJECT_DIR$/../../ali/sofa-bolt/src/main/java/com/alipay/remoting/rpc/RpcClient.java" description="super.startup();" line="121" />
+    <bookmark url="file://$PROJECT_DIR$/../../ali/sofa-bolt/src/main/java/com/alipay/remoting/DefaultConnectionManager.java" description="this.globalSwitch = globalSwitch;" line="182" />
+    <bookmark url="file://$PROJECT_DIR$/../../ali/sofa-bolt/src/main/java/com/alipay/remoting/DefaultConnectionManager.java" description="this(connectionSelectStrategy, connectionFactory);" line="161" />
+    <bookmark url="file://$PROJECT_DIR$/../../ali/sofa-bolt/src/main/java/com/alipay/remoting/DefaultConnectionManager.java" description="protected ConnectionFactory                       ..." line="91" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5a34889-0b47-4782-b1fa-be800ff266c8" name="Default Changelist" comment="" />
+    <list default="true" id="b5a34889-0b47-4782-b1fa-be800ff266c8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/AbstractNettyConfigRemoting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/AbstractNettyRemoting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/CommandFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/ConfigurableRemoting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/ConnectionEventListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/ConnectionPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/DefaultClientConnectionManger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/DefaultConnectionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/DefaultConnectionMonitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/Reconnector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/Scannable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/channel/ConnectionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/channel/ConnectionSelectStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/channel/DefaultConnectionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/channel/RandomSelectStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/config/configs/ConfigContainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/config/configs/ConfigItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/config/configs/ConfigType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/config/configs/DefaultConfigContainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/config/switches/GlobalSwitch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/config/switches/Switch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/handler/ConnectionEventHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/handler/HeartbeatHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/handler/RpcHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/protocol/UserProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/rpc/RpcClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/rpc/RpcClientRemoting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/rpc/RpcCommandFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/rpc/RpcRemoting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/rpc/RpcServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/rpc/RpcTaskScanner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/util/RunStateRecordFutureTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fancy-netty/src/main/test/org/fancy/remoting/BasicUsageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fancy-netty/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fancy-netty/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/AbstractLifeCycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/AbstractLifeCycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/AbstractNettyRemoting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/Connection.java" beforeDir="false" afterPath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/Connection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/LifeCycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/LifeCycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/NettyRemotingClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/NettyRemotingClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/NettyRemotingServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/NettyRemotingServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/ResponseStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/ResponseStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/RpcCommandType.java" beforeDir="false" afterPath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/RpcCommandType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/codec/CodecFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/codec/CodecFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/codec/ProtocolCodeBasedDecoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/codec/ProtocolCodeBasedDecoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/codec/ProtocolCodeBasedEncoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/codec/ProtocolCodeBasedEncoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/codec/RpcCodecFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/codec/RpcCodecFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/command/CommandCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/command/CommandCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/command/CommandDecoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/command/CommandDecoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/command/CommandEncoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/command/CommandEncoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/command/RemotingCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/command/RemotingCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/command/RpcCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/command/RpcCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/command/req/HeartbeatCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/command/req/HeartbeatCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/command/req/RequestCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/command/req/RequestCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/command/resp/RespCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/command/resp/RespCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/config/ConfigManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/config/configs/ConfigManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/config/Configs.java" beforeDir="false" afterPath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/config/configs/Configs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/config/switchs/ProtocolSwitch.java" beforeDir="false" afterPath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/config/switchs/ProtocolSwitch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/config/switchs/Switch.java" beforeDir="false" afterPath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/config/switchs/Switch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/exception/CodecException.java" beforeDir="false" afterPath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/exception/CodecException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/exception/LifeCycleException.java" beforeDir="false" afterPath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/exception/LifeCycleException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/exception/RemotingException.java" beforeDir="false" afterPath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/exception/RemotingException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/exception/SerializationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/exception/SerializationException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/handler/ServerBizHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/handler/ServerBizHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/handler/ServerIdleHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/handler/ServerIdleHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/protocol/Protocol.java" beforeDir="false" afterPath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/protocol/Protocol.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/protocol/ProtocolCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/protocol/ProtocolCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/protocol/ProtocolManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/protocol/ProtocolManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/protocol/RpcCommandCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/protocol/RpcCommandCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/protocol/RpcCommandDecoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/protocol/RpcCommandDecoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/protocol/RpcCommandEncoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/protocol/RpcCommandEncoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/protocol/RpcProtocolV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/protocol/RpcProtocolV2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/serialization/HassianSerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/serialization/HassianSerializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/serialization/Serializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/serialization/Serializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/serialization/SerializerManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/serialization/SerializerManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/util/EventLoopGroupUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/util/EventLoopGroupUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/util/IDGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/util/IDGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fancy-netty/target/fancy-netty-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fancy-netty/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fancy-netty/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/fancy-netty/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fancy-netty/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/fancy-netty/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fancy-netty/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fancy-netty/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fancy-rtmp/target/fancy-rtmp-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fancy-rtmp/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fancy-rtmp/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fancy-rtmp/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fancy-tools.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/fancy-netty/target/" />
@@ -36,39 +134,42 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/rpc/RpcClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="563">
+              <caret line="57" column="159" selection-start-line="57" selection-start-column="159" selection-end-line="57" selection-end-column="159" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3010#3011#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/fancy-http/src/test/java/org/fancy/http/hutools/HutoolsTest.java">
+        <entry file="file://$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/handler/RpcHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="115" column="9" lean-forward="true" selection-start-line="115" selection-start-column="9" selection-end-line="115" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3744#3745#0" expanded="true" />
-                <element signature="e#3835#3836#0" expanded="true" />
-                <element signature="e#3928#3929#0" expanded="true" />
-                <element signature="e#4019#4020#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="81">
+              <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fancy-http/HELP.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="84">
-                <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/rpc/RpcCommandFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="8" column="56" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fancy-http/src/main/java/org/fancy/http/config/HttpConnectionManager.java">
+        <entry file="file://$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/rpc/RpcClientRemoting.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="89">
-              <caret line="72" column="27" lean-forward="true" selection-start-line="72" selection-start-column="27" selection-end-line="72" selection-end-column="27" />
+            <state relative-caret-position="324">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -77,64 +178,74 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/tools/maven/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13-sources.jar!/org/apache/http/concurrent/FutureCallback.java">
+        <entry file="file://$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/rpc/RpcRemoting.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+            <state relative-caret-position="297">
+              <caret line="14" column="99" selection-start-line="14" selection-start-column="99" selection-end-line="14" selection-end-column="99" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/tools/maven/repository/org/springframework/spring-web/5.2.4.RELEASE/spring-web-5.2.4.RELEASE.jar!/org/springframework/http/client/HttpComponentsAsyncClientHttpRequest.class">
+        <entry file="file://$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/CommandFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-121">
-              <caret line="86" column="93" lean-forward="true" selection-start-line="86" selection-start-column="93" selection-end-line="86" selection-end-column="93" />
+            <state relative-caret-position="108">
+              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/tools/maven/repository/org/apache/httpcomponents/httpasyncclient/4.1.4/httpasyncclient-4.1.4-sources.jar!/org/apache/http/impl/nio/client/CloseableHttpAsyncClient.java">
+        <entry file="file://$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/rpc/RpcTaskScanner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="88" column="32" selection-start-line="88" selection-start-column="32" selection-end-line="88" selection-end-column="32" />
+            <state relative-caret-position="496">
+              <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#469#470#0" expanded="true" />
+                <element signature="e#509#510#0" expanded="true" />
+                <element signature="e#715#716#0" expanded="true" />
+                <element signature="e#743#744#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/tools/maven/repository/org/apache/httpcomponents/httpclient/4.5.11/httpclient-4.5.11.jar!/org/apache/http/client/methods/HttpGet.class">
+        <entry file="file://$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/DefaultClientConnectionManger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="12" column="15" lean-forward="true" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+            <state relative-caret-position="216">
+              <caret line="11" column="65" lean-forward="true" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="65" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/tools/maven/repository/org/apache/httpcomponents/httpasyncclient/4.1.4/httpasyncclient-4.1.4-sources.jar!/org/apache/http/nio/client/HttpAsyncClient.java">
+        <entry file="file://$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/DefaultConnectionManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="153" column="20" selection-start-line="153" selection-start-column="20" selection-end-line="153" selection-end-column="20" />
+            <state relative-caret-position="847">
+              <caret line="84" selection-start-line="84" selection-end-line="84" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/tools/maven/repository/org/apache/httpcomponents/httpclient/4.5.11/httpclient-4.5.11.jar!/org/apache/http/client/methods/HttpUriRequest.class">
+        <entry file="file://$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/channel/DefaultConnectionFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/tools/maven/repository/org/springframework/spring-web/5.2.4.RELEASE/spring-web-5.2.4.RELEASE.jar!/org/springframework/web/client/RequestCallback.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="12" column="36" lean-forward="true" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+            <state relative-caret-position="415">
+              <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -144,8 +255,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -164,66 +275,65 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/AbstractNettyRemoting.java" />
-        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/protocol/RpcCommonProtocol.java" />
-        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/CommandDecoder.java" />
-        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/Connection.java" />
-        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/protocol/Protocol.java" />
-        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/protocol/ProtocolManager.java" />
-        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/protocol/ProtocolCode.java" />
-        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/codec/RpcCodecFactory.java" />
-        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/NettyRemotingServer.java" />
-        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/Exception/CodecExceptino.java" />
-        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/Exception/RemotingException.java" />
-        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/Exception/CodecException.java" />
-        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/Exception/SerializationException.java" />
-        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/RemotingCommand.java" />
-        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/CommandEncoder.java" />
-        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/command/RemotingCommand.java" />
-        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/SerializerManager.java" />
-        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/serialization/Serializer.java" />
-        <option value="$PROJECT_DIR$/fancy-netty/pom.xml" />
-        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/serialization/HassianSerializer.java" />
-        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/config/Configs.java" />
-        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/config/ConfigManager.java" />
-        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/serialization/SerializerManager.java" />
-        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/command/CommandEncoder.java" />
-        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/command/RequestCommand.java" />
-        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/command/RespCommand.java" />
-        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/command/resp/RespCommand.java" />
-        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/ResponseStatus.java" />
-        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/config/Switch.java" />
-        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/config/switchs/Switch.java" />
-        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/protocol/RpcCommandEncoder.java" />
-        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/codec/ProtocolCodeBasedEncoder.java" />
-        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/protocol/RpcProtocolV2.java" />
-        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/command/CommandDecoder.java" />
-        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/RpcCommandType.java" />
-        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/command/CommandCode.java" />
-        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/util/IDGenerator.java" />
-        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/protocol/RpcCommandCode.java" />
-        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/command/RpcCommand.java" />
-        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/command/req/RequestCommand.java" />
-        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/config/switchs/ProtocolSwitch.java" />
-        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/protocol/RpcCommandDecoder.java" />
-        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/command/req/HeartbeatCommand.java" />
         <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/codec/ProtocolCodeBasedDecoder.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/fancy-http/src/main/java/org/fancy/http/config/HttpClientConnection.java" />
         <option value="$PROJECT_DIR$/fancy-http/pom.xml" />
         <option value="$PROJECT_DIR$/fancy-http/src/main/java/org/fancy/http/FancyHttpApplication.java" />
         <option value="$PROJECT_DIR$/fancy-http/src/main/java/org/fancy/http/config/HttpConnectionManager.java" />
         <option value="$PROJECT_DIR$/fancy-http/HELP.md" />
         <option value="$PROJECT_DIR$/fancy-http/src/test/java/org/fancy/http/hutools/HutoolsTest.java" />
+        <option value="$PROJECT_DIR$/fancy-netty/pom.xml" />
+        <option value="$PROJECT_DIR$/fancy-netty/src/main/test/org/fancy/netty/BasucUsageTest.java" />
+        <option value="$PROJECT_DIR$/fancy-netty/src/main/test/org/fancy/netty/BasicUsageTest.java" />
+        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/rpc/RpcServer.java" />
+        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/remoting/AbstractLifeCycle.java" />
+        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/remoting/LifeCycle.java" />
+        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/config/configs/ConfigType.java" />
+        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/config/configs/ConfigItem.java" />
+        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/config/configs/ConfigContainer.java" />
+        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/config/switches/Switch.java" />
+        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/config/switches/GlobalSwitch.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/config/configs/DefaultConfigContainer.java" />
+        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/remoting/AbstractNettyConfigRemoting.java" />
+        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/protocol/UserProcessor.java" />
+        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/netty/rpc/RpcClient.java" />
+        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remotign/rpc/RpcClient.java" />
+        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/DefaultConnectionMonitor.java" />
+        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/Reconnect.java" />
+        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/Reconnector.java" />
+        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/LifeCycle.java" />
+        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/AbstractLifeCycle.java" />
+        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/channel/ConnectionSelectStrategy.java" />
+        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/channel/RandomSelectStrategy.java" />
+        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/channel/ConnectionFactory.java" />
+        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/ConfigurableRemoting.java" />
+        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/channel/DefaultConnectionFactory.java" />
+        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/Scannable.java" />
+        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/ConnectionPool.java" />
+        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/util/RunStateRecordFutureTask.java" />
+        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/handler/Connection.java" />
+        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/handler/ConnectionEventHandler.java" />
+        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/ConnectionEventListener.java" />
+        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/AbstractNettyConfigRemoting.java" />
+        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/DefaultClientConnectionManger.java" />
+        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/handler/HeartbeatHandler.java" />
+        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/rpc/RpcTaskScanner.java" />
+        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/DefaultConnectionManager.java" />
+        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/CommandFactory.java" />
+        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/rpc/RpcRemoting.java" />
+        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/rpc/RpcClientRemoting.java" />
+        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/rpc/RpcCommandFactory.java" />
+        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/rpc/RpcClient.java" />
+        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/handler/RpcHandler.java" />
       </list>
     </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="D:\tools\maven\repository" />
-        <option name="mavenHome" value="D:/tools/maven/apache-maven-3.6.1" />
-        <option name="userSettingsFile" value="D:\tools\maven\apache-maven-3.6.1\conf\settings.xml" />
+        <option name="mavenHome" value="D:/tools/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\tools\apache-maven-3.6.1\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -246,6 +356,39 @@
           <item name="fancy-http" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="fancy-netty" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="fancy-netty" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="fancy-rtmp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="fancy-tools" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="fancy-tools" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="fancy-tools" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="fancy-tools" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="junit:junit:4.12" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
       </expand>
       <select />
     </treeState>
@@ -253,19 +396,21 @@
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="width" value="1850" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="181" />
+    <option name="width" value="1748" />
     <option name="height" value="1090" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -276,13 +421,97 @@
             <path>
               <item name="fancy-tools" type="b2602c69:ProjectViewProjectNode" />
               <item name="fancy-tools" type="462c0819:PsiDirectoryNode" />
-              <item name="fancy-http" type="462c0819:PsiDirectoryNode" />
+              <item name="fancy-netty" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="fancy-tools" type="b2602c69:ProjectViewProjectNode" />
               <item name="fancy-tools" type="462c0819:PsiDirectoryNode" />
-              <item name="fancy-http" type="462c0819:PsiDirectoryNode" />
+              <item name="fancy-netty" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fancy-tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fancy-tools" type="462c0819:PsiDirectoryNode" />
+              <item name="fancy-netty" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fancy-tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fancy-tools" type="462c0819:PsiDirectoryNode" />
+              <item name="fancy-netty" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fancy-tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fancy-tools" type="462c0819:PsiDirectoryNode" />
+              <item name="fancy-netty" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="remoting" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fancy-tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fancy-tools" type="462c0819:PsiDirectoryNode" />
+              <item name="fancy-netty" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="remoting" type="462c0819:PsiDirectoryNode" />
+              <item name="codec" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fancy-tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fancy-tools" type="462c0819:PsiDirectoryNode" />
+              <item name="fancy-netty" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="remoting" type="462c0819:PsiDirectoryNode" />
+              <item name="handler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fancy-tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fancy-tools" type="462c0819:PsiDirectoryNode" />
+              <item name="fancy-netty" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="remoting" type="462c0819:PsiDirectoryNode" />
+              <item name="protocol" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fancy-tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fancy-tools" type="462c0819:PsiDirectoryNode" />
+              <item name="fancy-netty" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="remoting" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fancy-tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fancy-tools" type="462c0819:PsiDirectoryNode" />
+              <item name="fancy-netty" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="remoting" type="462c0819:PsiDirectoryNode" />
+              <item name="serialization" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fancy-tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fancy-tools" type="462c0819:PsiDirectoryNode" />
+              <item name="fancy-netty" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="remoting" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -296,7 +525,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="F:/distributed/github/gpmall" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -308,7 +537,12 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.50583243" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.ignored.files" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.fancy.remoting" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -480,6 +714,7 @@
       <workItem from="1584755644370" duration="25442000" />
       <workItem from="1584842526151" duration="654000" />
       <workItem from="1584843233115" duration="17755000" />
+      <workItem from="1598837468211" duration="15216000" />
     </task>
     <servers />
   </component>
@@ -516,24 +751,27 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43851000" />
+    <option name="totallyTimeSpent" value="59067000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1488" height="878" extended-state="6" />
+    <frame x="181" y="0" width="1748" height="1090" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Web" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2041958" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.20438388" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="REST Client" />
+      <window_info anchor="bottom" id="SonarLint" />
       <window_info anchor="bottom" id="Java Enterprise" order="0" />
       <window_info anchor="bottom" id="Spring" order="1" />
       <window_info anchor="bottom" id="Message" order="2" />
-      <window_info anchor="bottom" id="Find" order="3" weight="0.32928476" />
-      <window_info anchor="bottom" id="Run" order="4" weight="0.2128514" />
+      <window_info anchor="bottom" id="Find" order="3" weight="0.32843652" />
+      <window_info anchor="bottom" id="Run" order="4" weight="0.08604407" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.4605087" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
@@ -541,472 +779,488 @@
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Terminal" order="12" visible="true" weight="0.3297587" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.31794333" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="14" weight="0.32931727" />
-      <window_info anchor="right" id="Bean Validation" order="0" />
+      <window_info anchor="right" id="SciView" weight="0.32954547" />
+      <window_info anchor="right" id="Bean Validation" order="0" weight="0.32954547" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="2" weight="0.24965034" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.2486692" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" weight="0.23636363" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.22790404" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Database" order="9" weight="0.32937062" />
+      <window_info anchor="right" id="Database" order="9" weight="0.32794613" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Web" order="0" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.20497362" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="REST Client" order="0" />
+      <window_info anchor="bottom" id="SonarLint" order="1" />
+      <window_info anchor="bottom" id="Java Enterprise" order="2" />
+      <window_info anchor="bottom" id="Spring" order="3" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.32843652" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.08604407" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4605087" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Terminal" order="14" weight="0.31794333" />
+      <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="16" weight="0.32931727" />
+      <window_info anchor="right" id="SciView" order="0" weight="0.32954547" />
+      <window_info anchor="right" id="Bean Validation" order="1" weight="0.32954547" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.2486692" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Maven" order="7" weight="0.22790404" />
+      <window_info anchor="right" id="Capture Analysis" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Database" order="10" weight="0.32794613" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/fancy-http/src/test/java/org/fancy/http/hutools/HutoolsTest.java</url>
-          <line>119</line>
-          <properties />
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/tools/maven/repository/org/apache/httpcomponents/httpcore-nio/4.4.13/httpcore-nio-4.4.13-sources.jar!/org/apache/http/nio/pool/AbstractNIOConnPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="666" column="16" selection-start-line="666" selection-start-column="16" selection-end-line="666" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/tools/maven/repository/org/apache/httpcomponents/httpasyncclient/4.1.4/httpasyncclient-4.1.4-sources.jar!/org/apache/http/impl/nio/conn/CPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="42" column="30" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/nio/charset/Charset.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="603" column="26" selection-start-line="603" selection-start-column="26" selection-end-line="603" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/tools/maven/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13-sources.jar!/org/apache/http/config/ConnectionConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="150" column="52" selection-start-line="150" selection-start-column="52" selection-end-line="150" selection-end-column="52" />
-          <folding>
-            <element signature="e#4845#4846#0" expanded="true" />
-            <element signature="e#4895#4896#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/concurrent/atomic/AtomicReference.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="114" column="25" selection-start-line="114" selection-start-column="25" selection-end-line="114" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/tools/maven/repository/org/apache/httpcomponents/httpasyncclient/4.1.4/httpasyncclient-4.1.4-sources.jar!/org/apache/http/impl/nio/client/InternalIODispatch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="47" column="20" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="698" column="29" selection-start-line="698" selection-start-column="29" selection-end-line="698" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/tools/maven/repository/org/apache/httpcomponents/httpasyncclient/4.1.4/httpasyncclient-4.1.4-sources.jar!/org/apache/http/impl/nio/client/CloseableHttpAsyncClientBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="63" column="37" selection-start-line="63" selection-start-column="37" selection-end-line="63" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/tools/maven/repository/org/apache/httpcomponents/httpasyncclient/4.1.4/httpasyncclient-4.1.4-sources.jar!/org/apache/http/impl/nio/conn/PoolingNHttpClientConnectionManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="220" column="26" selection-start-line="220" selection-start-column="26" selection-end-line="220" selection-end-column="26" />
-          <folding>
-            <element signature="e#21351#21352#0" expanded="true" />
-            <element signature="e#21397#21398#0" expanded="true" />
-            <element signature="e#21457#21458#0" expanded="true" />
-            <element signature="e#21499#21500#0" expanded="true" />
-            <element signature="e#21555#21556#0" expanded="true" />
-            <element signature="e#21611#21612#0" expanded="true" />
-            <element signature="e#21681#21682#0" expanded="true" />
-            <element signature="e#21733#21734#0" expanded="true" />
-            <element signature="e#22394#22395#0" expanded="true" />
-            <element signature="e#22461#22462#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/tools/maven/repository/org/apache/httpcomponents/httpcore-nio/4.4.13/httpcore-nio-4.4.13-sources.jar!/org/apache/http/impl/nio/reactor/AbstractMultiworkerIOReactor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="342" column="44" selection-start-line="342" selection-start-column="44" selection-end-line="342" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/nio/channels/Selector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="25" column="20" lean-forward="true" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/tools/maven/repository/org/apache/httpcomponents/httpasyncclient/4.1.4/httpasyncclient-4.1.4-sources.jar!/org/apache/http/impl/nio/client/HttpAsyncClientBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="568" column="25" selection-start-line="568" selection-start-column="25" selection-end-line="568" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/tools/maven/repository/org/apache/httpcomponents/httpclient/4.5.11/httpclient-4.5.11.jar!/org/apache/http/client/config/RequestConfig.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="266" column="26" lean-forward="true" selection-start-line="266" selection-start-column="26" selection-end-line="266" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/tools/maven/repository/org/apache/httpcomponents/httpcore-nio/4.4.13/httpcore-nio-4.4.13-sources.jar!/org/apache/http/impl/nio/reactor/DefaultConnectingIOReactor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="95" column="11" selection-start-line="95" selection-start-column="11" selection-end-line="95" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/tools/maven/repository/org/apache/httpcomponents/httpclient/4.5.11/httpclient-4.5.11.jar!/org/apache/http/impl/conn/CPool.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/tools/maven/repository/com/google/guava/guava/28.1-jre/guava-28.1-jre.jar!/com/google/common/base/Ticker.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#540#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/tools/maven/repository/com/google/guava/guava/28.1-jre/guava-28.1-jre.jar!/com/google/common/cache/CacheBuilder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#15560#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/tools/maven/repository/com/google/guava/guava/28.1-jre/guava-28.1-jre-sources.jar!/com/google/common/base/Ticker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/tools/maven/repository/com/google/guava/guava/28.1-jre/guava-28.1-jre-sources.jar!/com/google/common/base/Stopwatch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="184" column="70" selection-start-line="184" selection-start-column="70" selection-end-line="184" selection-end-column="70" />
-          <folding>
-            <element signature="e#4005#4006#0" expanded="true" />
-            <element signature="e#4045#4046#0" expanded="true" />
-            <element signature="e#4276#4277#0" expanded="true" />
-            <element signature="e#4321#4322#0" expanded="true" />
-            <element signature="e#5775#5776#0" expanded="true" />
-            <element signature="e#5859#5860#0" expanded="true" />
-            <element signature="e#6532#6533#0" expanded="true" />
-            <element signature="e#6597#6598#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/tools/maven/repository/cn/hutool/hutool-all/5.2.3/hutool-all-5.2.3.jar!/cn/hutool/http/HttpRequest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="58" column="28" lean-forward="true" selection-start-line="58" selection-start-column="28" selection-end-line="58" selection-end-column="28" />
-          <folding>
-            <element signature="e#3681#3682#0" expanded="true" />
-            <element signature="e#3745#3746#0" expanded="true" />
-            <element signature="e#12777#12778#0" expanded="true" />
-            <element signature="e#12819#12820#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/tools/maven/repository/cn/hutool/hutool-all/5.2.3/hutool-all-5.2.3.jar!/cn/hutool/http/HttpUtil.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="68" column="61" lean-forward="true" selection-start-line="68" selection-start-column="61" selection-end-line="68" selection-end-column="61" />
-          <folding>
-            <element signature="e#2025#2026#0" expanded="true" />
-            <element signature="e#2088#2089#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/tools/maven/repository/cn/hutool/hutool-all/5.2.3/hutool-all-5.2.3.jar!/cn/hutool/core/util/ReUtil.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="200" column="31" selection-start-line="200" selection-start-column="31" selection-end-line="200" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/tools/maven/repository/cn/hutool/hutool-all/5.2.3/hutool-all-5.2.3.jar!/cn/hutool/core/thread/NamedThreadFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="12" column="47" lean-forward="true" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
-          <folding>
-            <element signature="e#645#646#0" expanded="true" />
-            <element signature="e#702#703#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/tools/maven/repository/com/google/guava/guava/28.1-jre/guava-28.1-jre.jar!/com/google/common/util/concurrent/ThreadFactoryBuilder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="19" column="39" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#3574#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/tools/maven/repository/com/google/guava/guava/28.1-jre/guava-28.1-jre-sources.jar!/com/google/common/util/concurrent/ThreadFactoryBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="55" column="9" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="2033" column="57" lean-forward="true" selection-start-line="2033" selection-start-column="57" selection-end-line="2033" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/logging/Logger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="446" column="48" lean-forward="true" selection-start-line="446" selection-start-column="48" selection-end-line="446" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/tools/maven/repository/org/springframework/boot/spring-boot-test/2.2.5.RELEASE/spring-boot-test-2.2.5.RELEASE.jar!/org/springframework/boot/test/context/SpringBootTest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fancy-http/src/main/java/org/fancy/http/FancyHttpApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="20" column="54" lean-forward="true" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fancy-http/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fancy-http/src/test/java/org/fancy/http/FancyHttpApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/tools/maven/repository/org/springframework/spring-web/5.2.4.RELEASE/spring-web-5.2.4.RELEASE.jar!/org/springframework/http/client/support/InterceptingHttpAccessor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="38" column="23" lean-forward="true" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/tools/maven/repository/org/springframework/spring-web/5.2.4.RELEASE/spring-web-5.2.4.RELEASE.jar!/org/springframework/http/client/support/HttpAccessor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="52" column="68" lean-forward="true" selection-start-line="52" selection-start-column="68" selection-end-line="52" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/tools/maven/repository/org/springframework/spring-web/5.2.4.RELEASE/spring-web-5.2.4.RELEASE.jar!/org/springframework/http/client/ClientHttpRequestFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="13" column="32" lean-forward="true" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/tools/maven/repository/org/springframework/spring-web/5.2.4.RELEASE/spring-web-5.2.4.RELEASE.jar!/org/springframework/http/client/SimpleBufferingClientHttpRequest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/tools/maven/repository/org/springframework/spring-web/5.2.4.RELEASE/spring-web-5.2.4.RELEASE.jar!/org/springframework/http/client/SimpleClientHttpRequestFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="75" column="66" lean-forward="true" selection-start-line="75" selection-start-column="66" selection-end-line="75" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/net/URL.java">
+    <entry file="file://$PROJECT_DIR$/fancy-netty/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-11">
-          <caret line="1011" column="27" selection-start-line="1011" selection-start-column="27" selection-end-line="1011" selection-end-column="27" />
+          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/tools/maven/repository/org/apache/httpcomponents/httpclient/4.5.11/httpclient-4.5.11.jar!/org/apache/http/impl/conn/PoolingHttpClientConnectionManager.class">
+    <entry file="file://$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/rpc/RpcServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/AbstractNettyRemoting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/Connection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/ResponseStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/RpcCommandType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
-          <caret line="356" column="16" selection-start-line="356" selection-start-column="16" selection-end-line="356" selection-end-column="16" />
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/AbstractLifeCycle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fancy-netty/src/main/test/org/fancy/remoting/BasicUsageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/NettyRemotingClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/NettyRemotingServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="22" column="62" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/config/configs/Configs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/config/configs/ConfigManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/config/configs/ConfigType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/config/configs/ConfigItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/BitSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="621" column="12" selection-start-line="621" selection-start-column="12" selection-end-line="621" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/config/switches/Switch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="17" selection-start-line="7" selection-start-column="7" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/config/switches/GlobalSwitch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="25" />
           <folding>
-            <element signature="e#15869#15870#0" expanded="true" />
-            <element signature="e#15911#15912#0" expanded="true" />
+            <element signature="e#359#360#0" expanded="true" />
+            <element signature="e#409#410#0" expanded="true" />
+            <element signature="e#456#457#0" expanded="true" />
+            <element signature="e#473#474#0" expanded="true" />
+            <element signature="e#553#554#0" expanded="true" />
+            <element signature="e#598#599#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/tools/maven/repository/org/springframework/spring-web/5.2.4.RELEASE/spring-web-5.2.4.RELEASE.jar!/org/springframework/http/client/HttpComponentsClientHttpRequestFactory.class">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="29" column="39" lean-forward="true" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+        <state relative-caret-position="513">
+          <caret line="62" column="42" selection-start-line="62" selection-start-column="42" selection-end-line="62" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/config/configs/ConfigContainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/config/configs/DefaultConfigContainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
           <folding>
-            <element signature="e#1522#1523#0" expanded="true" />
-            <element signature="e#1582#1583#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#886#916#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/tools/maven/repository/org/springframework/spring-web/5.2.4.RELEASE/spring-web-5.2.4.RELEASE.jar!/org/springframework/web/client/RestTemplate.class">
+    <entry file="file://$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/protocol/UserProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="185" column="28" lean-forward="true" selection-start-line="185" selection-start-column="28" selection-end-line="185" selection-end-column="28" />
+        <state relative-caret-position="270">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/tools/maven/repository/org/springframework/spring-web/5.2.4.RELEASE/spring-web-5.2.4.RELEASE.jar!/org/springframework/http/client/ClientHttpRequest.class">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/concurrent/ConcurrentMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        <state relative-caret-position="308">
+          <caret line="62" column="17" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/tools/maven/repository/org/springframework/spring-web/5.2.4.RELEASE/spring-web-5.2.4.RELEASE.jar!/org/springframework/web/client/RequestCallback.class">
+    <entry file="file://$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/DefaultConnectionMonitor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="12" column="36" lean-forward="true" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+        <state relative-caret-position="243">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#503#504#0" expanded="true" />
+            <element signature="e#531#532#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/tools/maven/repository/org/apache/httpcomponents/httpasyncclient/4.1.4/httpasyncclient-4.1.4-sources.jar!/org/apache/http/nio/client/HttpAsyncClient.java">
+    <entry file="file://$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/Reconnector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="153" column="20" selection-start-line="153" selection-start-column="20" selection-end-line="153" selection-end-column="20" />
+        <state relative-caret-position="81">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/tools/maven/repository/org/apache/httpcomponents/httpclient/4.5.11/httpclient-4.5.11.jar!/org/apache/http/client/methods/HttpUriRequest.class">
+    <entry file="file://$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/LifeCycle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        <state relative-caret-position="243">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/tools/maven/repository/org/springframework/spring-web/5.2.4.RELEASE/spring-web-5.2.4.RELEASE.jar!/org/springframework/http/client/HttpComponentsAsyncClientHttpRequest.class">
+    <entry file="file://$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/AbstractLifeCycle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-121">
-          <caret line="86" column="93" lean-forward="true" selection-start-line="86" selection-start-column="93" selection-end-line="86" selection-end-column="93" />
+        <state relative-caret-position="729">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/tools/maven/repository/org/apache/httpcomponents/httpclient/4.5.11/httpclient-4.5.11.jar!/org/apache/http/client/methods/HttpGet.class">
+    <entry file="file://$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/ConfigurableRemoting.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="12" column="15" lean-forward="true" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+        <state relative-caret-position="81">
+          <caret line="6" column="37" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/tools/maven/repository/org/apache/httpcomponents/httpasyncclient/4.1.4/httpasyncclient-4.1.4-sources.jar!/org/apache/http/impl/nio/client/CloseableHttpAsyncClient.java">
+    <entry file="file://$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/codec/CodecFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="88" column="32" selection-start-line="88" selection-start-column="32" selection-end-line="88" selection-end-column="32" />
+        <state relative-caret-position="162">
+          <caret line="6" column="29" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/tools/maven/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13-sources.jar!/org/apache/http/concurrent/FutureCallback.java">
+    <entry file="file://$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/channel/ConnectionFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+        <state relative-caret-position="81">
+          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fancy-http/src/main/java/org/fancy/http/config/HttpConnectionManager.java">
+    <entry file="file://$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/channel/RandomSelectStrategy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="72" column="27" lean-forward="true" selection-start-line="72" selection-start-column="27" selection-end-line="72" selection-end-column="27" />
+        <state relative-caret-position="297">
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fancy-http/HELP.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="84">
-            <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/channel/ConnectionSelectStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fancy-http/src/test/java/org/fancy/http/hutools/HutoolsTest.java">
+    <entry file="file://$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/codec/RpcCodecFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="115" column="9" lean-forward="true" selection-start-line="115" selection-start-column="9" selection-end-line="115" selection-end-column="9" />
+        <state relative-caret-position="108">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/Scannable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/ConnectionPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/concurrent/FutureTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="62" column="13" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/util/RunStateRecordFutureTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3744#3745#0" expanded="true" />
-            <element signature="e#3835#3836#0" expanded="true" />
-            <element signature="e#3928#3929#0" expanded="true" />
-            <element signature="e#4019#4020#0" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+            <element signature="e#494#495#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/handler/ConnectionEventHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="10" column="66" selection-start-line="10" selection-start-column="66" selection-end-line="10" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/channel/DefaultConnectionFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/DefaultConnectionManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="847">
+          <caret line="84" selection-start-line="84" selection-end-line="84" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/DefaultClientConnectionManger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="11" column="65" lean-forward="true" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/javax/sql/ConnectionEventListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="50" column="17" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/ConnectionEventListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/AbstractNettyConfigRemoting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="577">
+          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1010#1011#0" expanded="true" />
+            <element signature="e#1045#1046#0" expanded="true" />
+            <element signature="e#1107#1108#0" expanded="true" />
+            <element signature="e#1155#1156#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/handler/HeartbeatHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/rpc/RpcTaskScanner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#469#470#0" expanded="true" />
+            <element signature="e#509#510#0" expanded="true" />
+            <element signature="e#715#716#0" expanded="true" />
+            <element signature="e#743#744#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/CommandFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/rpc/RpcRemoting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="14" column="99" selection-start-line="14" selection-start-column="99" selection-end-line="14" selection-end-column="99" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/rpc/RpcClientRemoting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/rpc/RpcCommandFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="8" column="56" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/rpc/RpcClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="563">
+          <caret line="57" column="159" selection-start-line="57" selection-start-column="159" selection-end-line="57" selection-end-column="159" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3010#3011#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/handler/RpcHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -1061,11 +1315,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>fancy-http</last-edited>
+          <last-edited>fancy-netty</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.50583243" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
