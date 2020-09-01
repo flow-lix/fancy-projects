@@ -4,14 +4,17 @@
  */
 package org.fancy.remoting.protocol;
 
+import org.fancy.remoting.BizContext;
 import org.fancy.remoting.LifeCycle;
+import org.fancy.remoting.exception.RemotingException;
 
 public interface UserProcessor<T> extends LifeCycle {
+
 
     /**
      * 处理同步请求
      */
-    void handlerSyncRequest();
+    Object handlerSyncRequest(BizContext bizContext, T request) throws RemotingException;
 
     /**
      * 处理异步请求

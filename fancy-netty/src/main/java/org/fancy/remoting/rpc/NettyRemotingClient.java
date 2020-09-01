@@ -1,4 +1,4 @@
-package org.fancy.remoting;
+package org.fancy.remoting.rpc;
 
 /**
  * Netty 远程客户端

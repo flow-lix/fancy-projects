@@ -8,6 +8,11 @@ import java.util.BitSet;
 
 public class GlobalSwitch implements Switch {
 
+    public static final byte SERVER_CONNECTION_MANAGE_SWITCH = 0x01;
+    public static final byte CONN_RECONNECT_SWITCH = 0x02;
+    public static final byte SERVER_SYNC_STOP = 0x03;
+
+
     private BitSet userSettings = new BitSet();
 
     @Override

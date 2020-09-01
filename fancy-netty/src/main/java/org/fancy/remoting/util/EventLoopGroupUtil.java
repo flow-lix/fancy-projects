@@ -1,6 +1,7 @@
 package org.fancy.remoting.util;
 
 import io.netty.channel.EventLoopGroup;
+import io.netty.channel.epoll.Epoll;
 import io.netty.channel.epoll.EpollEventLoopGroup;
 import io.netty.channel.epoll.EpollServerSocketChannel;
 import io.netty.channel.nio.NioEventLoopGroup;
@@ -11,7 +12,7 @@ import java.util.concurrent.ThreadFactory;
 
 public class EventLoopGroupUtil {
 
-    private static final boolean useEpoll = true;
+    private static final boolean useEpoll = Epoll.isAvailable();
 
     public static EventLoopGroup newEventLoopGroup(int threadNum, ThreadFactory tFactory) {
         return useEpoll ? new EpollEventLoopGroup(threadNum, tFactory) :

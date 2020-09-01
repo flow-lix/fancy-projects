@@ -18,7 +18,7 @@ import java.util.concurrent.ConcurrentMap;
 import java.util.concurrent.FutureTask;
 
 @Slf4j
-public class DefaultConnectionManager implements LifeCycle, Scannable {
+public class DefaultConnectionManager implements ConnectionManger, LifeCycle, Scannable {
 
     private ConcurrentMap<String, RunStateRecordFutureTask<ConnectionPool>> connTasks;
 
@@ -82,6 +82,16 @@ public class DefaultConnectionManager implements LifeCycle, Scannable {
 
     @Override
     public void scan() {
+
+    }
+
+    @Override
+    public Connection get(String poolKey) {
+        return null;
+    }
+
+    @Override
+    public void add(Connection connection, String poolKey) {
 
     }
 }

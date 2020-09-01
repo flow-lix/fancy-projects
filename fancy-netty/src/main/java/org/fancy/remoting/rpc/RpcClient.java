@@ -38,8 +38,8 @@ public class RpcClient extends AbstractNettyConfigRemoting {
 
     private RpcClientRemoting clientRemoting;
 
-    public RpcClient(RpcTaskScanner TASK_SCANNER) {
-        this.TASK_SCANNER = TASK_SCANNER;
+    public RpcClient() {
+        this.TASK_SCANNER = new RpcTaskScanner();
         this.USER_PROCESSORS = new ConcurrentHashMap<>();
         this.connectionEventHandler = new ConnectionEventHandler();
         this.connectionEventListener = new ConnectionEventListener();

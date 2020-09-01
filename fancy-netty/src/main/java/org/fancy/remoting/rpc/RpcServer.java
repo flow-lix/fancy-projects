@@ -4,5 +4,10 @@
  */
 package org.fancy.remoting.rpc;
 
-public class RpcServer {
+import org.fancy.remoting.AbstractNettyConfigRemoting;
+
+public class RpcServer extends AbstractNettyConfigRemoting {
+
+    private NettyRemotingServer remotingServer;
+
 }
