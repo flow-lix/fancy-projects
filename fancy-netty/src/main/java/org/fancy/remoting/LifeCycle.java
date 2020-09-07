@@ -12,4 +12,5 @@ public interface LifeCycle {
     void shutdown()throws LifeCycleException;
 
     boolean isStarted();
+
 }

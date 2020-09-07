@@ -6,11 +6,8 @@ package org.fancy.remoting;
 
 import org.fancy.remoting.exception.RemotingException;
 
-public interface ConnectionManger {
+public abstract class AbstractRemotingClient extends AbstractNettyConfigRemoting {
 
-    void check(Connection connection) throws RemotingException;
+    public abstract void oneway(final String addr, final Object req) throws RemotingException;
 
-    Connection get(String poolKey);
-
-    void add(Connection connection, String poolKey);
 }

@@ -27,6 +27,18 @@ public class Url {
 
     private Properties properties;
 
+    public Url(String addr, String ip, int port) {
+        this.originUrl = addr;
+        this.ip = ip;
+        this.port = port;
+        this.uniqueKey = ip + ":" + port;
+    }
+
+    public Url(String addr, String ip, int port, Properties properties) {
+        this(addr, ip, port);
+        this.properties = properties;
+    }
+
     public String getOriginUrl() {
         return originUrl;
     }
@@ -97,5 +109,20 @@ public class Url {
 
     public void setProperties(Properties properties) {
         this.properties = properties;
+    }
+
+    @Override
+    public String toString() {
+        return "Url{" +
+                "originUrl='" + originUrl + '\'' +
+                ", ip='" + ip + '\'' +
+                ", port=" + port +
+                ", uniqueKey='" + uniqueKey + '\'' +
+                ", connectTimeout=" + connectTimeout +
+                ", protocol=" + protocol +
+                ", connNum=" + connNum +
+                ", connWarmup=" + connWarmup +
+                ", properties=" + properties +
+                '}';
     }
 }

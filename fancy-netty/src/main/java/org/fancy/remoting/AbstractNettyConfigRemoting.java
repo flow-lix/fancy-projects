@@ -4,12 +4,10 @@
  */
 package org.fancy.remoting;
 
-import org.fancy.remoting.common.RequestBody;
 import org.fancy.remoting.config.configs.ConfigContainer;
 import org.fancy.remoting.config.configs.ConfigType;
 import org.fancy.remoting.config.configs.DefaultConfigContainer;
 import org.fancy.remoting.config.switches.GlobalSwitch;
-import org.fancy.remoting.exception.RemotingException;
 
 public abstract class AbstractNettyConfigRemoting extends AbstractLifeCycle implements ConfigurableRemoting {
 
@@ -38,5 +36,4 @@ public abstract class AbstractNettyConfigRemoting extends AbstractLifeCycle impl
         this.globalSwitch = globalSwitch;
     }
 
-    public abstract void oneway(String addr, RequestBody req) throws RemotingException;
 }

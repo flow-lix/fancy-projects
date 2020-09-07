@@ -1,6 +1,5 @@
 package org.fancy.remoting.rpc;
 
-import com.sun.jndi.toolkit.url.Uri;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.buffer.PooledByteBufAllocator;
 import io.netty.buffer.UnpooledByteBufAllocator;
@@ -9,8 +8,6 @@ import io.netty.channel.socket.SocketChannel;
 import io.netty.handler.timeout.IdleStateHandler;
 import io.netty.util.concurrent.DefaultThreadFactory;
 import lombok.extern.slf4j.Slf4j;
-import org.fancy.remoting.AbstractNettyConfigRemoting;
-import org.fancy.remoting.AbstractNettyRemoting;
 import org.fancy.remoting.AbstractRemotingServer;
 import org.fancy.remoting.Connection;
 import org.fancy.remoting.ConnectionEventListener;
@@ -23,11 +20,12 @@ import org.fancy.remoting.codec.CodecFactory;
 import org.fancy.remoting.codec.RpcCodecFactory;
 import org.fancy.remoting.config.configs.ConfigManager;
 import org.fancy.remoting.config.switches.GlobalSwitch;
+import org.fancy.remoting.exception.RemotingException;
 import org.fancy.remoting.handler.ConnectionEventHandler;
 import org.fancy.remoting.handler.RpcHandler;
-import org.fancy.remoting.handler.ServerBizHandler;
 import org.fancy.remoting.handler.ServerIdleHandler;
 import org.fancy.remoting.protocol.UserProcessor;
+import org.fancy.remoting.util.AddressParserUtil;
 import org.fancy.remoting.util.EventLoopGroupUtil;
 
 import java.net.InetSocketAddress;
@@ -105,7 +103,6 @@ public class NettyRemotingServer extends AbstractRemotingServer {
         }
 // toDo 3 trigger mode
 
-
         final boolean useTcpIdleCheck = ConfigManager.usTcpIdleCheck();
         final int tcpIdleTime = ConfigManager.getTcpIdleTime();
         final ChannelHandler serverIdleHandler = new ServerIdleHandler();
@@ -126,7 +123,7 @@ public class NettyRemotingServer extends AbstractRemotingServer {
                 pipeline.addLast("connectionEventHandler", connEventHandler);
                 pipeline.addLast("serverHandler", rpcHandler);
 
-                Url url = new Url();
+                Url url = AddressParserUtil.parse("");
                 if (getGlobalSwitch().isOn(GlobalSwitch.CONN_RECONNECT_SWITCH)) {
                     connectionManager.add(new Connection(channel, url), url.getUniqueKey());
                 } else {
@@ -177,4 +174,8 @@ public class NettyRemotingServer extends AbstractRemotingServer {
         return true;
     }
 
+    public void oneway(final String addr, final Object request) throws RemotingException {
+        ensureStarted();
+        this.rpcRemoting.oneway(addr, request, null);
+    }
 }

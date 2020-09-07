@@ -34,6 +34,7 @@ public class BasicUsageTest {
             try {
                 rpcClient.oneway(addr, req);
             } catch (RemotingException e) {
+                e.printStackTrace();
                 Assert.fail(e.getMessage());
             }
         }

@@ -4,5 +4,10 @@
  */
 package org.fancy.remoting;
 
+import org.fancy.remoting.common.RequestBody;
+import org.fancy.remoting.protocol.RpcRequestCommand;
+
 public interface CommandFactory {
+
+    RpcRequestCommand createRequestCommand(Object req);
 }

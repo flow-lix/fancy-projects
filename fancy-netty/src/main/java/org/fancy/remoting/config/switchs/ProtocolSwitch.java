@@ -4,11 +4,24 @@ import java.util.BitSet;
 
 public class ProtocolSwitch implements Switch {
 
+    /**
+     * 循环冗余码校验
+     */
+    public static final int CRC_SWITCH = 0x01;
+
     private BitSet bs = new BitSet();
 
     public static ProtocolSwitch create(byte value) {
         ProtocolSwitch protocolSwitch = new ProtocolSwitch();
         protocolSwitch.setBs(toBitSet(value));
+        return protocolSwitch;
+    }
+
+    public static ProtocolSwitch create(int[] values) {
+        ProtocolSwitch protocolSwitch = new ProtocolSwitch();
+        for (int idx : values) {
+            protocolSwitch.turnOn(idx);
+        }
         return protocolSwitch;
     }
 

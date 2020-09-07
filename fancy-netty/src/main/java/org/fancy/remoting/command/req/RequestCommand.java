@@ -3,6 +3,7 @@ package org.fancy.remoting.command.req;
 import org.fancy.remoting.RpcCommandType;
 import org.fancy.remoting.command.CommandCode;
 import org.fancy.remoting.command.RpcCommand;
+import org.fancy.remoting.exception.SerializationException;
 
 public class RequestCommand extends RpcCommand {
 
@@ -19,4 +20,5 @@ public class RequestCommand extends RpcCommand {
     public void setTimeout(int timeout) {
         this.timeout = timeout;
     }
+
 }

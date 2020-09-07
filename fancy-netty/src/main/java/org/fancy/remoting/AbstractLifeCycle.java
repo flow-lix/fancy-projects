@@ -31,4 +31,10 @@ public abstract class AbstractLifeCycle implements LifeCycle {
     public boolean isStarted() {
         return this.isStarted.get();
     }
+
+    protected void ensureStarted() {
+        if (!isStarted()) {
+            throw new LifeCycleException(String.format("Component %s 还没有启动!", getClass().getSimpleName()));
+        }
+    }
 }

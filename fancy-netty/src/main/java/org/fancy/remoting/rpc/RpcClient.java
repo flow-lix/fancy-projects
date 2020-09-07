@@ -1,11 +1,8 @@
-/**
- * @Copyright (c) 2019, Denali System Co., Ltd. All Rights Reserved.
- * Website: www.denalisystem.com | Email: marketing@denalisystem.com
- */
 package org.fancy.remoting.rpc;
 
 import lombok.extern.slf4j.Slf4j;
 import org.fancy.remoting.AbstractNettyConfigRemoting;
+import org.fancy.remoting.AbstractRemotingClient;
 import org.fancy.remoting.ConnectionEventListener;
 import org.fancy.remoting.DefaultClientConnectionManger;
 import org.fancy.remoting.DefaultConnectionMonitor;
@@ -15,7 +12,9 @@ import org.fancy.remoting.channel.ConnectionSelectStrategy;
 import org.fancy.remoting.channel.DefaultConnectionFactory;
 import org.fancy.remoting.channel.RandomSelectStrategy;
 import org.fancy.remoting.codec.RpcCodecFactory;
+import org.fancy.remoting.common.RequestBody;
 import org.fancy.remoting.exception.LifeCycleException;
+import org.fancy.remoting.exception.RemotingException;
 import org.fancy.remoting.handler.ConnectionEventHandler;
 import org.fancy.remoting.handler.HeartbeatHandler;
 import org.fancy.remoting.handler.RpcHandler;
@@ -25,7 +24,7 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentMap;
 
 @Slf4j
-public class RpcClient extends AbstractNettyConfigRemoting {
+public class RpcClient extends AbstractRemotingClient {
 
     private final RpcTaskScanner TASK_SCANNER;
     private final ConcurrentMap<String, UserProcessor<?>> USER_PROCESSORS;
@@ -70,14 +69,14 @@ public class RpcClient extends AbstractNettyConfigRemoting {
     }
 
     @Override
-    public void shutdown() throws LifeCycleException {
-
+    public void oneway(final String addr, final Object request) throws RemotingException {
+        ensureStarted();
+        this.clientRemoting.oneway(addr, request, null);
     }
 
     @Override
-    public boolean isStarted() {
-        return false;
-    }
+    public void shutdown() throws LifeCycleException {
 
+    }
 
 }

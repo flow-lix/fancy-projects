@@ -28,4 +28,5 @@ public class Configs {
     public static final String SERIALIZER = "serializer";
     public static final String SERIALIZER_DEFAULT = String.valueOf(SerializerManager.HESSIAN2);
 
+    public static final String DEFAULT_CHARSET = "UTF-8";
 }

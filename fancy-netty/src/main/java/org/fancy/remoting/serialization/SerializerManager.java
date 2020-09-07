@@ -13,7 +13,7 @@ public class SerializerManager {
         addSerializer(HESSIAN2, new HassianSerializer());
     }
 
-    public Serializer getSerializer(int idx) {
+    public static Serializer getSerializer(int idx) {
         return serializers[idx];
     }
 

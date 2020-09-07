@@ -8,6 +8,8 @@ public enum  ConnectionEventType {
 
     CONNECTED,
 
+    CONNECT_FAIL,
+
     CLOSE,
 
     EXCEPTION;

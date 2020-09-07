@@ -1,5 +1,6 @@
 package org.fancy.remoting.command;
 
+import org.fancy.remoting.InvokeContext;
 import org.fancy.remoting.exception.SerializationException;
 import org.fancy.remoting.config.configs.ConfigManager;
 import org.fancy.remoting.config.switchs.ProtocolSwitch;
@@ -12,9 +13,9 @@ public abstract class RpcCommand implements RemotingCommand {
 
     private static final long serialVersionUID = -68623518572906844L;
 
+    private int id;
     private int requestType;
     private CommandCode commandCode;
-    private int id;
 
     private byte serializer = ConfigManager.serializer;
     private ProtocolSwitch pSwitch = new ProtocolSwitch();
@@ -23,6 +24,13 @@ public abstract class RpcCommand implements RemotingCommand {
 
     private byte[] header;
     private byte[] content;
+
+    /**
+     * 每个rpc命令的调用上下文
+     */
+    private InvokeContext invokeContext;
+
+    private ProtocolSwitch protocolSwitch = new ProtocolSwitch();
 
     public RpcCommand() {
     }
@@ -44,7 +52,7 @@ public abstract class RpcCommand implements RemotingCommand {
 
     @Override
     public int getId() {
-        return 0;
+        return id;
     }
 
     public static long getSerialVersionUID() {
@@ -117,11 +125,36 @@ public abstract class RpcCommand implements RemotingCommand {
 
     @Override
     public void serialize() throws SerializationException {
+        this.serializeClazz();
+        this.serializeHeader();
+        this.serializeContent();
+    }
+
+    protected void serializeClazz() throws SerializationException {
+
+    }
+
+    protected void serializeHeader() throws SerializationException {
+
+    }
+
+    protected void serializeContent() throws SerializationException {
 
     }
 
     @Override
     public void deserialize() throws SerializationException {
 
+    }
+
+    public void setProtocolSwitch(ProtocolSwitch protocolSwitch) {
+    }
+
+    public ProtocolSwitch getProtocolSwitch() {
+        return protocolSwitch;
+    }
+
+    public void setInvokeContext(InvokeContext invokeContext) {
+        this.invokeContext = invokeContext;
     }
 }
