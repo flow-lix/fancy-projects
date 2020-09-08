@@ -4,6 +4,7 @@
  */
 package org.fancy.remoting;
 
+import io.netty.util.concurrent.DefaultThreadFactory;
 import lombok.extern.slf4j.Slf4j;
 import org.fancy.remoting.channel.ConnectionFactory;
 import org.fancy.remoting.channel.ConnectionSelectStrategy;
@@ -15,15 +16,17 @@ import org.fancy.remoting.handler.ConnectionEventHandler;
 import org.fancy.remoting.util.RunStateRecordFutureTask;
 
 import java.util.Objects;
+import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.Callable;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentMap;
 import java.util.concurrent.FutureTask;
 import java.util.concurrent.RejectedExecutionException;
 import java.util.concurrent.ThreadPoolExecutor;
+import java.util.concurrent.TimeUnit;
 
 @Slf4j
-public class DefaultConnectionManager implements ConnectionManger, LifeCycle, Scannable {
+public class DefaultConnectionManager extends AbstractLifeCycle implements ConnectionManger, Scannable {
 
     private ConcurrentMap<String, RunStateRecordFutureTask<ConnectionPool>> connTasks;
 
@@ -90,17 +93,17 @@ public class DefaultConnectionManager implements ConnectionManger, LifeCycle, Sc
 
     @Override
     public void startup() throws LifeCycleException {
-
+        super.startup();
+        this.asyncCreateConnectionExecutor = new ThreadPoolExecutor(3, 8, 60, TimeUnit.SECONDS,
+                new ArrayBlockingQueue<>(50), new DefaultThreadFactory("conn-warmup-executor", true));
+        this.connectionEventHandler.setConnectionManger(this);
+        this.connectionEventHandler.setConnectionEventListener(connectionEventListener);
+        this.connectionFactory.init(connectionEventHandler);
     }
 
     @Override
     public void shutdown() throws LifeCycleException {
 
-    }
-
-    @Override
-    public boolean isStarted() {
-        return false;
     }
 
     @Override
@@ -205,7 +208,7 @@ public class DefaultConnectionManager implements ConnectionManger, LifeCycle, Sc
         try {
              conn = this.connectionFactory.createConnection(url);
         } catch (Exception e) {
-            throw new RemotingException("创建连接失败,地址：" + url.getOriginUrl());
+            throw new RemotingException("创建连接失败,地址：" + url.getOriginUrl(), e);
         }
         return conn;
     }

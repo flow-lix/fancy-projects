@@ -5,6 +5,7 @@
 package org.fancy.remoting.util;
 
 import org.fancy.remoting.Url;
+import org.fancy.remoting.config.configs.Configs;
 
 import java.lang.ref.SoftReference;
 import java.util.Objects;
@@ -49,6 +50,9 @@ public final class AddressParserUtil {
             }
             parsedUrl = new Url(addr, ip, port, properties);
         }
+        int connNum = Configs.DEFAULT_CONN_NUM_PER_URL;
+        parsedUrl.setConnNum(connNum);
+
         PARSED_URLS.putIfAbsent(addr, new SoftReference<>(parsedUrl));
         return parsedUrl;
     }

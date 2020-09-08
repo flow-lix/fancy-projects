@@ -16,7 +16,11 @@ public class ConfigManager {
     }
 
     public static int getTcpIdleTime() {
-        return getInt(Configs.TCP_IDLE_CHECK_TIME, Configs.TCP_IDLE_CHECK_TIME_DEFAULT);
+        return getInt(Configs.SERVER_IDLE_CHECK_TIME, Configs.SERVER_IDLE_CHECK_TIME_DEFAULT);
+    }
+
+    public static int getClientIdleTime() {
+        return getInt(Configs.CLIENT_IDLE_CHECK_TIME, Configs.CLIENT_IDLE_CHECK_TIME_DEFAULT);
     }
 
     public static int getTcpBacklog() {
@@ -46,4 +50,6 @@ public class ConfigManager {
     private static byte getByte(String key, String defVal) {
         return Byte.parseByte(System.getProperty(key, defVal));
     }
+
+
 }

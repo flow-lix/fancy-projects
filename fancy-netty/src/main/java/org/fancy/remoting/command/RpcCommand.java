@@ -47,7 +47,7 @@ public abstract class RpcCommand implements RemotingCommand {
 
     @Override
     public CommandCode getCommandCode() {
-        return null;
+        return commandCode;
     }
 
     @Override
@@ -148,6 +148,7 @@ public abstract class RpcCommand implements RemotingCommand {
     }
 
     public void setProtocolSwitch(ProtocolSwitch protocolSwitch) {
+        this.protocolSwitch = protocolSwitch;
     }
 
     public ProtocolSwitch getProtocolSwitch() {

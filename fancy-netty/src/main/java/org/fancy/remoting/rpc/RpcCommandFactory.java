@@ -7,6 +7,6 @@ public class RpcCommandFactory implements CommandFactory {
 
     @Override
     public RpcRequestCommand createRequestCommand(Object req) {
-        return null;
+        return new RpcRequestCommand(req);
     }
 }

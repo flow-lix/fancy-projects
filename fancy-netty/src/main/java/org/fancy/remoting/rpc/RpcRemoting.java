@@ -81,4 +81,8 @@ public abstract class RpcRemoting {
             log.error("发送请求时异常, 地址: {}", RemotingUtil.parseRemoteAddress(conn.getChannel()), e);
         }
     }
+
+    public Object invokeSync(String address, Object request, Object o, int timeoutMillis) throws RemotingException {
+        return null;
+    }
 }

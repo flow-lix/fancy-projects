@@ -11,16 +11,14 @@ import org.fancy.remoting.command.CommandEncoder;
  *  / type | cmdcode | requestId | codec | switch | responseStatus |
  *  / headerLen | contentLen | header | content |
  */
-public class RpcProtocolV2 implements Protocol {
-
-    public static final byte PROTOCOL_CODE = 2;
+public class RpcProtocol implements Protocol {
 
     private final CommandEncoder encoder;
     private final CommandDecoder decoder;
 
-    public RpcProtocolV2(CommandEncoder encoder, CommandDecoder decoder) {
-        this.encoder = encoder;
-        this.decoder = decoder;
+    public RpcProtocol() {
+        this.encoder = new RpcCommandEncoder();
+        this.decoder = new RpcCommandDecoder();
     }
 
     @Override

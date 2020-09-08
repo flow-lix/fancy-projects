@@ -20,8 +20,8 @@ public class BasicUsageTest {
 
     @Before
     public void setup() {
-        rpcServer = new RpcServer();
-        rpcServer.startup();
+        rpcServer = new RpcServer("localhost", 8000);
+        rpcServer.start();
 
         rpcClient = new RpcClient();
         rpcClient.startup();
@@ -33,6 +33,23 @@ public class BasicUsageTest {
         for (int i = 0; i < 10; i++) {
             try {
                 rpcClient.oneway(addr, req);
+            } catch (RemotingException e) {
+                e.printStackTrace();
+                Assert.fail(e.getMessage());
+            }
+        }
+        Assert.assertTrue(serverConnProcessor.isConnected());
+        Assert.assertEquals(1, serverConnProcessor.getConnectTimes());
+        Assert.assertEquals(10, serverConnProcessor.getInvokeTime());
+    }
+
+    @Test
+    public void testSync() throws InterruptedException {
+        RequestBody req = new RequestBody(2, "Hello world oneway!");
+        for (int i = 0; i < 10; i++) {
+            try {
+                String ret = (String) rpcClient.invokeSync(addr, req, 3000);
+                Assert.assertEquals(RequestBody.DEFAULT_SERVER_RETURN_STR, ret);
             } catch (RemotingException e) {
                 e.printStackTrace();
                 Assert.fail(e.getMessage());

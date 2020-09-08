@@ -19,23 +19,13 @@ public class ProtocolCodeBasedEncoder extends MessageToByteEncoder<RemotingComma
 
     private ProtocolCode protocolCode;
 
-    public ProtocolCodeBasedEncoder(ProtocolCode protocolCode) {
+    public ProtocolCodeBasedEncoder() {
         super();
-        this.protocolCode = protocolCode;
     }
 
     @Override
     protected void encode(ChannelHandlerContext ctx, RemotingCommand msg, ByteBuf out) throws Exception {
-        Attribute<ProtocolCode> attr = ctx.channel().attr(Connection.PROTOCOL);
-
-        ProtocolCode protocolCode;
-        if (null == attr || null == attr.get()) {
-            protocolCode = this.protocolCode;
-        } else {
-            protocolCode = attr.get();
-        }
-
-        Protocol protocol = ProtocolManager.getProtocol(protocolCode);
+        Protocol protocol = ProtocolManager.getProtocol();
         protocol.getEncoder().encode(ctx, msg, out);
     }
 }

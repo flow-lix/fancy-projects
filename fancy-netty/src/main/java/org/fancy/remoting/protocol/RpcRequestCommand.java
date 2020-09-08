@@ -4,6 +4,7 @@
  */
 package org.fancy.remoting.protocol;
 
+import org.fancy.remoting.RpcCommandType;
 import org.fancy.remoting.command.CommandCode;
 import org.fancy.remoting.command.req.RequestCommand;
 import org.fancy.remoting.config.configs.Configs;
@@ -23,8 +24,9 @@ public class RpcRequestCommand extends RequestCommand {
 
     private transient long arriveTime = -1;
 
-    public RpcRequestCommand(CommandCode commandCode) {
-        super(commandCode);
+    public RpcRequestCommand(Object requestObject) {
+        super(RpcCommandCode.RPC_REQUEST);
+        this.requestObject = requestObject;
     }
 
     public CustomSerializer getCustomSerializer() {

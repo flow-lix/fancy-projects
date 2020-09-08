@@ -27,6 +27,7 @@ import org.fancy.remoting.handler.ServerIdleHandler;
 import org.fancy.remoting.protocol.UserProcessor;
 import org.fancy.remoting.util.AddressParserUtil;
 import org.fancy.remoting.util.EventLoopGroupUtil;
+import org.fancy.remoting.util.RemotingUtil;
 
 import java.net.InetSocketAddress;
 import java.util.concurrent.ConcurrentHashMap;
@@ -78,6 +79,9 @@ public class NettyRemotingServer extends AbstractRemotingServer {
             this.connEventHandler = new RpcConnectionEventHandler();
             this.connEventHandler.setConnectionManger(connectionManager);
             this.connEventHandler.setConnectionEventListener(connEventListener);
+        } else {
+            this.connEventHandler = new ConnectionEventHandler();
+            this.connEventHandler.setConnectionEventListener(connEventListener);
         }
 
         // 初始化Remoting
@@ -123,7 +127,7 @@ public class NettyRemotingServer extends AbstractRemotingServer {
                 pipeline.addLast("connectionEventHandler", connEventHandler);
                 pipeline.addLast("serverHandler", rpcHandler);
 
-                Url url = AddressParserUtil.parse("");
+                Url url = AddressParserUtil.parse(RemotingUtil.parseRemoteAddress(channel));
                 if (getGlobalSwitch().isOn(GlobalSwitch.CONN_RECONNECT_SWITCH)) {
                     connectionManager.add(new Connection(channel, url), url.getUniqueKey());
                 } else {

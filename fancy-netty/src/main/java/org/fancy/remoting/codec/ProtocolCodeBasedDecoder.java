@@ -4,23 +4,19 @@ import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.handler.codec.ByteToMessageDecoder;
 import org.fancy.remoting.protocol.Protocol;
-import org.fancy.remoting.protocol.ProtocolCode;
 import org.fancy.remoting.protocol.ProtocolManager;
 
 import java.util.List;
 
 public class ProtocolCodeBasedDecoder extends ByteToMessageDecoder {
 
-    private ProtocolCode protocolCode;
-
-    public ProtocolCodeBasedDecoder(ProtocolCode protocolCode) {
+    public ProtocolCodeBasedDecoder() {
         super();
-        this.protocolCode = protocolCode;
     }
 
     @Override
     protected void decode(ChannelHandlerContext ctx, ByteBuf in, List<Object> out) throws Exception {
-        Protocol protocol = ProtocolManager.getProtocol(protocolCode);
+        Protocol protocol = ProtocolManager.getProtocol();
         if (protocol != null) {
             in.resetReaderIndex();
             protocol.getDecoder().decode(ctx, in, out);

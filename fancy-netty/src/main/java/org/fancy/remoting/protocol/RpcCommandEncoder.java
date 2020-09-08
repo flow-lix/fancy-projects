@@ -2,6 +2,7 @@ package org.fancy.remoting.protocol;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerContext;
+import lombok.extern.slf4j.Slf4j;
 import org.fancy.remoting.command.CommandEncoder;
 import org.fancy.remoting.command.RemotingCommand;
 import org.fancy.remoting.command.req.RequestCommand;
@@ -11,9 +12,9 @@ import org.fancy.remoting.command.resp.RespCommand;
 /**
  * Rpc encoder
  */
+@Slf4j
 public class RpcCommandEncoder implements CommandEncoder {
 
-//    private static final Logger LOGGER = LoggerFac
     @Override
     public void encode(ChannelHandlerContext ctx, RemotingCommand msg, ByteBuf out) {
         try {
@@ -40,10 +41,10 @@ public class RpcCommandEncoder implements CommandEncoder {
                     out.writeBytes(cmd.getContent());
                 }
             } else {
-                System.err.println(String.format("Message of type [%s] is not subclass of RpcCommand!", msg.getClass()));
+                log.error("Message of type {} is not subclass of RpcCommand!", msg.getClass());
             }
         } catch (Exception e) {
-            System.err.println("Exception caughted!");
+            log.error("Exception caughted!", e);
             throw e;
         }
     }

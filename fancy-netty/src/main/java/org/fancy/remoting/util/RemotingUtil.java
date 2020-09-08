@@ -39,10 +39,11 @@ public class RemotingUtil {
         return socketAddress != null ? socketAddress.getPort() : -1;
     }
 
-    public static Object parseRemoteAddress(Channel channel) {
+    public static String parseRemoteAddress(Channel channel) {
         if (null == channel) {
             return StringUtils.EMPTY;
         }
-        return channel.remoteAddress().toString();
+        String addr = channel.remoteAddress().toString();
+        return addr.replace("/", "");
     }
 }
