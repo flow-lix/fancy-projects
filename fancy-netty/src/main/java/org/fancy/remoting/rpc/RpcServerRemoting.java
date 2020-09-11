@@ -32,4 +32,9 @@ public class RpcServerRemoting extends RpcRemoting {
     protected void preProcessInvokeContext(InvokeContext invokeContext, RequestCommand cmd, Connection conn) {
 
     }
+
+    @Override
+    protected Object invokeSync(Url url, Object request, InvokeContext invokeContext, int timeoutMillis) throws RemotingException {
+        return null;
+    }
 }

@@ -16,11 +16,11 @@ public class BasicUsageTest {
 
     ConnectEventProcessor serverConnProcessor = new ConnectEventProcessor();
 
-    public static final String addr = "localhost:8000";
+    public static final String addr = "localhost:8001";
 
     @Before
     public void setup() {
-        rpcServer = new RpcServer("localhost", 8000);
+        rpcServer = new RpcServer("localhost", 8001);
         rpcServer.start();
 
         rpcClient = new RpcClient();

@@ -1,6 +1,7 @@
 package org.fancy.remoting.command;
 
 import org.fancy.remoting.InvokeContext;
+import org.fancy.remoting.exception.DeserializationException;
 import org.fancy.remoting.exception.SerializationException;
 import org.fancy.remoting.config.configs.ConfigManager;
 import org.fancy.remoting.config.switchs.ProtocolSwitch;
@@ -22,6 +23,7 @@ public abstract class RpcCommand implements RemotingCommand {
     private short headerLength;
     private int contentLength;
 
+    private byte[] clazz;
     private byte[] header;
     private byte[] content;
 
@@ -123,11 +125,26 @@ public abstract class RpcCommand implements RemotingCommand {
         this.content = content;
     }
 
+    public byte[] getClazz() {
+        return clazz;
+    }
+
+    public void setClazz(byte[] clazz) {
+        this.clazz = clazz;
+    }
+
     @Override
     public void serialize() throws SerializationException {
         this.serializeClazz();
         this.serializeHeader();
         this.serializeContent();
+    }
+
+    @Override
+    public void deserialize() throws DeserializationException {
+        this.deserializeClass();
+        this.deserializeHeader(null);
+        this.deserializeContent(null);
     }
 
     protected void serializeClazz() throws SerializationException {
@@ -142,8 +159,14 @@ public abstract class RpcCommand implements RemotingCommand {
 
     }
 
-    @Override
-    public void deserialize() throws SerializationException {
+    protected void deserializeClass() throws DeserializationException {
+    }
+
+    protected void deserializeHeader(InvokeContext invokeContext) throws DeserializationException {
+
+    }
+
+    protected void deserializeContent(InvokeContext invokeContext) throws DeserializationException {
 
     }
 

@@ -4,6 +4,7 @@
  */
 package org.fancy.remoting.serialization;
 
+import org.fancy.remoting.InvokeContext;
 import org.fancy.remoting.command.RpcCommand;
 import org.fancy.remoting.exception.SerializationException;
 
@@ -17,7 +18,7 @@ public interface CustomSerializer {
     /**
      * 反序列化请求、响应头
      */
-    <T extends RpcCommand> boolean deserializeHeader(T cmd) throws SerializationException;
+    <T extends RpcCommand> boolean deserializeHeader(T cmd, InvokeContext context) throws SerializationException;
 
     /**
      * 序列化请求、响应内容
@@ -27,6 +28,6 @@ public interface CustomSerializer {
     /**
      * 反序列化请求、响应内容
      */
-    <T extends RpcCommand> boolean deserializeContent(T cmd) throws SerializationException;
+    <T extends RpcCommand> boolean deserializeContent(T cmd, InvokeContext invokeContext) throws SerializationException;
 
 }

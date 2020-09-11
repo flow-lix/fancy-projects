@@ -75,7 +75,8 @@ public class RpcClient extends AbstractRemotingClient {
     }
 
     @Override
-    public Object invokeSync(String address, Object request, int timeoutMillis) throws RemotingException {
+    public Object invokeSync(String address, Object request, int timeoutMillis)
+            throws RemotingException, InterruptedException {
         ensureStarted();
         return this.clientRemoting.invokeSync(address, request, null, timeoutMillis);
     }

@@ -1,9 +1,9 @@
 package org.fancy.remoting.command.req;
 
+import org.fancy.remoting.InvokeContext;
 import org.fancy.remoting.RpcCommandType;
 import org.fancy.remoting.command.CommandCode;
 import org.fancy.remoting.command.RpcCommand;
-import org.fancy.remoting.exception.SerializationException;
 
 public class RequestCommand extends RpcCommand {
 
@@ -21,4 +21,8 @@ public class RequestCommand extends RpcCommand {
         this.timeout = timeout;
     }
 
+    @Override
+    public InvokeContext getInvokeContext() {
+        return null;
+    }
 }

@@ -4,10 +4,17 @@
  */
 package org.fancy.remoting;
 
-import org.fancy.remoting.common.RequestBody;
+import org.fancy.remoting.command.RemotingCommand;
+import org.fancy.remoting.command.resp.ResponseCommand;
 import org.fancy.remoting.protocol.RpcRequestCommand;
+
+import java.net.InetSocketAddress;
 
 public interface CommandFactory {
 
     RpcRequestCommand createRequestCommand(Object req);
+
+    ResponseCommand createSendFailedResponse(final InetSocketAddress address, Throwable cause);
+
+    ResponseCommand createTimeoutResponse(InetSocketAddress remoteAddress);
 }

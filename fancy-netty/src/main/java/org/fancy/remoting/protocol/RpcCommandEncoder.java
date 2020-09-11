@@ -7,7 +7,7 @@ import org.fancy.remoting.command.CommandEncoder;
 import org.fancy.remoting.command.RemotingCommand;
 import org.fancy.remoting.command.req.RequestCommand;
 import org.fancy.remoting.command.RpcCommand;
-import org.fancy.remoting.command.resp.RespCommand;
+import org.fancy.remoting.command.resp.ResponseCommand;
 
 /**
  * Rpc encoder
@@ -29,8 +29,8 @@ public class RpcCommandEncoder implements CommandEncoder {
                 out.writeByte(cmd.getpSwitch().toBytes());
                 if (cmd instanceof RequestCommand) {
                     out.writeInt(((RequestCommand) cmd).getTimeout());
-                } else if (cmd instanceof RespCommand) {
-                    out.writeShort(((RespCommand) cmd).getResponseStatus().getCode());
+                } else if (cmd instanceof ResponseCommand) {
+                    out.writeShort(((ResponseCommand) cmd).getResponseStatus().getCode());
                 }
                 out.writeShort(cmd.getHeaderLength());
                 out.writeInt(cmd.getContentLength());

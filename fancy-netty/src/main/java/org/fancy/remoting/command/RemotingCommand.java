@@ -1,5 +1,7 @@
 package org.fancy.remoting.command;
 
+import org.fancy.remoting.InvokeContext;
+import org.fancy.remoting.exception.DeserializationException;
 import org.fancy.remoting.exception.SerializationException;
 import org.fancy.remoting.protocol.ProtocolCode;
 
@@ -18,5 +20,7 @@ public interface RemotingCommand extends Serializable {
 
     void serialize() throws SerializationException;
 
-    void deserialize() throws SerializationException;
+    void deserialize() throws DeserializationException;
+
+    InvokeContext getInvokeContext();
 }

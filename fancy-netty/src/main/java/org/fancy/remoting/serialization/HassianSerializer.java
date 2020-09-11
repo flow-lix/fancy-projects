@@ -13,7 +13,7 @@ public class HassianSerializer implements Serializer {
     }
 
     @Override
-    public <T> T deserialize(byte[] data, Class<T> tClass) throws SerializationException {
+    public <T> T deserialize(byte[] data, String classOfT) throws SerializationException {
         return null;
     }
 }

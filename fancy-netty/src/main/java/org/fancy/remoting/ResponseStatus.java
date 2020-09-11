@@ -15,8 +15,19 @@ public enum ResponseStatus {
 
     ERROR(201),
 
-    SERVER_EXCEPTION(202)
-    ;
+    SERVER_EXCEPTION(202),
+
+    TIMEOUT(203),
+
+    CLIENT_SEND_FAIL(204),
+
+    CLIENT_SEND_ERROR(205),
+
+    CONNECTION_CLOSED(206),
+
+    SERVER_THREADPOOL_BUSY(207), CODEC_EXCEPTION(208),
+
+    SERVER_SERIAL_EXCEPTION(209), SERVER_DESERIAL_EXCEPTION(210);
 
     private final short code;
     public static final Map<Short, ResponseStatus> STATUS_MAP = new HashMap<>();

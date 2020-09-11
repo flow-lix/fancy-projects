@@ -25,11 +25,12 @@ public class RpcClientRemoting extends RpcRemoting{
         this.oneway(conn, request, invokeContext);
     }
 
-    private void oneway(Connection conn, RequestBody req, InvokeContext invokeContext) throws SerializationException {
-        RequestCommand requestCommand = toRemotingCommand(req, conn, invokeContext, -1);
-        requestCommand.setRequestType(RpcCommandType.REQ_ONEWAY);
-        preProcessInvokeContext(invokeContext, requestCommand, conn);
-        super.oneway(conn, requestCommand);
+    @Override
+    protected Object invokeSync(Url url, Object request, InvokeContext invokeContext, int timeoutMillis)
+            throws RemotingException, InterruptedException {
+        final Connection conn = getConnectionAndInitInvokeContext(url, invokeContext);
+        getConnectionManager().check(conn);
+        return this.invokeSync(conn, request, invokeContext, timeoutMillis);
     }
 
     @Override

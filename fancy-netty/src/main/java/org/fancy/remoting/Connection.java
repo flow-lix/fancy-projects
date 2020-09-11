@@ -5,12 +5,17 @@ import io.netty.util.AttributeKey;
 import org.fancy.remoting.protocol.ProtocolCode;
 import org.fancy.remoting.util.RemotingUtil;
 
+import java.net.InetSocketAddress;
+import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.ConcurrentMap;
 import java.util.concurrent.atomic.AtomicInteger;
 
 public class Connection {
 
     private Channel channel;
     private final Url url;
+
+    private final ConcurrentMap<Integer, InvokeFuture> INVOKE_FUTURE_MAP = new ConcurrentHashMap<>();
 
     private AtomicInteger referenceCount = new AtomicInteger(0);
 
@@ -47,5 +52,17 @@ public class Connection {
 
     public void close() {
 
+    }
+
+    public void addInvokeFuture(InvokeFuture future) {
+        INVOKE_FUTURE_MAP.putIfAbsent(future.invokeId(), future);
+    }
+
+    public InetSocketAddress getRemoteAddress() {
+        return (InetSocketAddress) channel.remoteAddress();
+    }
+
+    public void removeInvokeFuture(int requestId) {
+        INVOKE_FUTURE_MAP.remove(requestId);
     }
 }
