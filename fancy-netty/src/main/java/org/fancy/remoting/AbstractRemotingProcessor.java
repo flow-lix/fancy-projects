@@ -29,7 +29,11 @@ public abstract class AbstractRemotingProcessor<T extends RemotingCommand> imple
     @Override
     public void process(RemotingContext ctx, T msg, ExecutorService executor) {
         ProcessTask task = new ProcessTask(ctx, msg);
-
+        if (getExecutor() != null) {
+            getExecutor().execute(task);
+        } else {
+            executor.execute(task);
+        }
     }
 
     class ProcessTask implements Runnable {

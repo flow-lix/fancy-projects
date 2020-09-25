@@ -1,7 +1,10 @@
 package org.fancy.remoting.protocol;
 
+import org.fancy.remoting.CommandFactory;
+import org.fancy.remoting.CommandHandler;
 import org.fancy.remoting.command.CommandDecoder;
 import org.fancy.remoting.command.CommandEncoder;
+import org.fancy.remoting.rpc.RpcCommandFactory;
 
 /**
  *  / requestType | CommandCode | requestId | codec | switch | timeout | responseStatus
@@ -16,7 +19,12 @@ public class RpcProtocol implements Protocol {
     private final CommandEncoder encoder;
     private final CommandDecoder decoder;
 
+    private CommandHandler commandHandler;
+    private CommandFactory commandFactory;
+
     public RpcProtocol() {
+        this.commandFactory = new RpcCommandFactory();
+        this.commandHandler = new RpcCommandHandler(commandFactory);
         this.encoder = new RpcCommandEncoder();
         this.decoder = new RpcCommandDecoder();
     }
@@ -31,4 +39,8 @@ public class RpcProtocol implements Protocol {
         return decoder;
     }
 
+    @Override
+    public CommandHandler getCommandHandler() {
+        return commandHandler;
+    }
 }

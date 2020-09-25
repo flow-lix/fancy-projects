@@ -10,5 +10,5 @@ public interface CommandHandler {
      * @param remotingContext
      * @param msg
      */
-    void handlerCommand(RemotingContext remotingContext, Object msg);
+    void handleCommand(RemotingContext remotingContext, Object msg);
 }

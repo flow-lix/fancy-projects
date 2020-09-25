@@ -33,7 +33,7 @@ public class RpcHandler extends ChannelInboundHandlerAdapter {
     @Override
     public void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception {
         Protocol protocol = ProtocolManager.getProtocol();
-        protocol.getCommandHandler().handlerCommand(
+        protocol.getCommandHandler().handleCommand(
                 new RemotingContext(ctx, serverSide, userProcessors, new InvokeContext()), msg);
     }
 }

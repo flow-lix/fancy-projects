@@ -40,4 +40,68 @@ public class RemotingContext {
         this.userProcessors = userProcessors;
         this.invokeContext = invokeContext;
     }
+
+    public ChannelHandlerContext getCtx() {
+        return ctx;
+    }
+
+    public void setCtx(ChannelHandlerContext ctx) {
+        this.ctx = ctx;
+    }
+
+    public boolean isServerSide() {
+        return serverSide;
+    }
+
+    public void setServerSide(boolean serverSide) {
+        this.serverSide = serverSide;
+    }
+
+    public boolean isTimeoutDiscard() {
+        return timeoutDiscard;
+    }
+
+    public void setTimeoutDiscard(boolean timeoutDiscard) {
+        this.timeoutDiscard = timeoutDiscard;
+    }
+
+    public long getArriveTimestamp() {
+        return arriveTimestamp;
+    }
+
+    public void setArriveTimestamp(long arriveTimestamp) {
+        this.arriveTimestamp = arriveTimestamp;
+    }
+
+    public int getTimeout() {
+        return timeout;
+    }
+
+    public void setTimeout(int timeout) {
+        this.timeout = timeout;
+    }
+
+    public int getRpcCommandType() {
+        return rpcCommandType;
+    }
+
+    public void setRpcCommandType(int rpcCommandType) {
+        this.rpcCommandType = rpcCommandType;
+    }
+
+    public ConcurrentMap<String, UserProcessor<?>> getUserProcessors() {
+        return userProcessors;
+    }
+
+    public void setUserProcessors(ConcurrentMap<String, UserProcessor<?>> userProcessors) {
+        this.userProcessors = userProcessors;
+    }
+
+    public InvokeContext getInvokeContext() {
+        return invokeContext;
+    }
+
+    public void setInvokeContext(InvokeContext invokeContext) {
+        this.invokeContext = invokeContext;
+    }
 }
