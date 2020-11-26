@@ -6,6 +6,9 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/fancy-http/pom.xml" />
+        <option value="$PROJECT_DIR$/fancy-redis/redis-basic/pom.xml" />
+        <option value="$PROJECT_DIR$/fancy-redis/redis-lock/pom.xml" />
+        <option value="$PROJECT_DIR$/fancy-nacos/pom.xml" />
       </list>
     </option>
   </component>

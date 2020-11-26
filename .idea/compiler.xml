@@ -6,15 +6,24 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="fancy-http" />
+        <module name="redis-lock" />
+        <module name="fancy-redis" />
         <module name="fancy-netty" />
+        <module name="fancy-nacos" />
+        <module name="fancy-interview" />
+        <module name="redis-basic" />
         <module name="fancy-rtmp" />
+        <module name="fancy-http" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="fancy-http" options="-parameters" />
+      <module name="fancy-nacos" options="-parameters" />
+      <module name="fancy-redis" options="-parameters" />
+      <module name="redis-basic" options="-parameters" />
+      <module name="redis-lock" options="-parameters" />
     </option>
   </component>
 </project>
