@@ -12,6 +12,7 @@
         <module>fancy-netty</module>
         <module>fancy-http</module>
         <module>fancy-rtmp</module>
+        <module>fancy-interview</module>
     </modules>
 
     <dependencies>
