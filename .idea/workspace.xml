@@ -3,308 +3,30 @@
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/rpc/RpcClientRemoting.java" description="final Connection conn = getConnectionAndInitInvoke..." line="22" />
     <bookmark url="file://$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/rpc/RpcRemoting.java" description="ResponseCommand responseCommand = invokeSync(conn,..." line="79" />
-    <bookmark url="file://D:/git-pro/denali/denali-infomation-platform/src/main/java/com/denali/information/service/impl/DataSourceServiceImpl.java" description="resultEntity.setDataType(sourceEntity.getCgdsType(..." line="256" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b5a34889-0b47-4782-b1fa-be800ff266c8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/1/010e94251b01ea9dc76929655ce7f94d6abc03c7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/4/041cddf01a16e5cafcd11338d4a00b4cedc7a357" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/6/0664e73bd1ade1e0df7feea94d1dd6ffad8f17db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/8/0898f53ccb5722ce4c4a5893bda78a98f88f1750" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/a/0a9dbe4cd974336ff81a0d0d3703b00a93c430bc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/b/0b4a1d9c388df378b4c894978b58ad6fcd496b6c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/b/0be5afd403643904015e9c89cef00bf04e5089d4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/f/0f9d3aa54a14ac35d7148b43601f21e86e4b00dc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/1/1146639f5ca287bae52030520085b7f2b558c9f7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/3/13d9555fbf9f61d54de44c9380a5b762eeea26dc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/4/1469d7d3d6cb56e8a9661251270cba6600f5242e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/8/1874e7bfe8d1ba94cf6480e71537cd1441bde516" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/d/1d7f51740c2ce9f5f19b39d57929ffeb86eb6497" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/d/1d7f64e2f2c17c110000a2ddc202ac5767235399" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/f/1f40d5f739143ae35597075d89e0cf1f75069951" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/0/20d090145719c04b6b9426da479b8b11fe991e00" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/2/2210d43ec9bf7b6a2695283815752ecddc8c1860" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/5/252a45a283b7a361759c430a2eef85b6888b98e6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/d/2d230ab58be7ce3e10c4e590094f9fc5e804ae21" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/1/31167bee8bcd150233557266d8bfafe4e02a5d55" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/2/324afb0bf9dff4b5b1ca2fd895e8068680ee0387" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/2/32f249739d11a677c018d32ea37a82650d1f8630" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/3/33157692b277dd54e1aaab85c28b062223ee618b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/5/353f9701744e8edc539436c13e772250d8778f29" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/7/379664ea2c96a1e685228ae58e4cdbb039e6b881" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/c/3c61fe0694013c65d06306a891c4634d01729d71" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/d/3dc751b130cd9642d528cb7153e2130d30ff498d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/f/3f783fddaa375c02c82ef0d5c89acd1554d76106" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/f/3f8f1b706cb7c97def5af2208324eb49f19c74a1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/1/41394354d7d3c0f96b9a47d87d84739b3c023f01" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/1/41fa73f747525da6dd76d6661ffe8e6f493f8ed4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/2/42a9498abdbe28933e9eae48da903688eec082ec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/2/42fe87134d307e7cacec1f757b9d821ddb53e298" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/3/4326c2c6053582e860b758003554f6a52f3e819b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/3/4369a1f20393689c8acef01d9deca8a511eab9fe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/6/4665a291f0aa0019c8ba2c563dd8e98cb139f791" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/7/478551352927c9f7863d3aa17afc8459fcd5ead8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/c/4c6affe6a6fdfa22f119b665fa8acbfd4e9c102d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/d/4d4ea951d0d9fbc197484f4827899d2029f029d1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/f/4f6c4101d495c49542120537df73da3b9d63144c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/0/503f43617f82d754be40d521f331be0019285943" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/1/5195b8cf1b3dcb746fb348407786a39507e62965" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/1/51e46dd264bb6eccae1de8a7409cee2c9b572c5b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/3/53ce4e44a54aa241e2a17cf6d6becc4f8c867734" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/4/549ba5c2897deb9315524552fef280dbbd3cf123" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/5/5577437bea62fe3b9d323d60fd7a3a95c77c860b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/a/5a2b8488d13a2fee376171fb8e6ab2b3a3117988" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/b/5b948821a479e2a018b0eb65611082a8bf43a89c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/b/5b989ca38cf2ba11037fb46fa7883ab58bc0f700" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/d/5d7fceabff7a011512cb6520a80b524014d4443e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/2/62665f908a97da0dfeb4f14c170ebcef99e0aaa4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/a/6afa63a70d8970489e89d1f6d3cd66cea6b1c41f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/d/6d5c7a9fe0cfd7e6bff01076ad25a7df05bdddfc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/d/6d7fbcacdfe6ed23d61035f765351c56f496b494" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/f/6ff94e1f0d4a6a7ee7505cccf70fea1470d908c2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/0/706d6baf7b933c77538d8822aafc76ce2b4efcf9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/1/71577bf36aa5eaf3e474c157dbd03f5fe275d605" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/4/74a4133c149fcc34795f38cc340ca8df31fc3141" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/7/77032fe4df307069a1a17a1077473954d4ac87e7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/8/7892da344d2003f7363385170234cf2ac3a559d0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/d/7d09c1b22cc188d59be22870607024ed11bdbb51" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/e/7e4e4535af408760ab7c088a739e9a4774142a21" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/e/7ee91b02e153565c6de381c3552ab2a73cc12639" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/e/7eed5284f31612006363d3030521a36b615e955b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/0/80a62ec15095347816336f005434e3170102ac58" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/3/83551d9211d69ac608430011f1a9ecfb6f0761da" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/3/83e6b5a459b7361a0157a6a7f968e935488dea42" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/5/85b55017a9550fd12592811eff86187cf9617a75" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/5/85fa311a9e4995a155c19a4872980ed6ef96e660" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/8/88209aacda80c3db61daa8dfe06175370d6c4008" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/b/8b12eb1c2eb77cd06f5da3b6e0bd2f0ff9824a95" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/c/8c00054dc44a9aac96957ae70e12d95773e087f7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/c/8c98f8ab54408f85d2df0640bfffb11c91d4e068" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/f/8fa59a3177b8f52a75302b5555c8010a66356c02" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/0/901d7aab61d0452a043d6d269c40803d33c7fec5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/1/91b0ae79c4394c234e5cfa728753498ca7faa5b6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/7/9777ace54c839e3f4c44543c492a5a2ea91084e3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/8/987615cd9a23b197ca430d42729ca7cd6f0bd1d1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/9/99197238096c4b40c654b8d970a4890f64b6c8f1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/1/a15b840d4f4af877815e6c41e3229b19eb2c42d6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/1/a1e52df8478ad8bb6a7cc345a9ffdbfc3844c542" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/3/a319f73e1860b683ab50be71f3f4de3e1e8e3277" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/5/a551563405523f0a271571fb61a8726e322bc071" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/8/a8fe27e07ae2cb367362f7d45544e8da641b9c29" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/9/a9256a7e18f3c932a2087720d644f46150093501" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/b/ab6bfeae41e7b8f9a162b64e5ec0e6b2ac98fe58" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/e/aebc8cca4c5ec0ff3d4b7f247090fc506c67edb4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/3/b34d96a7b11bb35f95406ac90490c9e58838787c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/3/b3c0abf6bb20db5bb9787e11dfcd9ab24431c649" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/5/b549bd5d997ddc622fd7d7217dff94d22a48df6f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/5/b584c6752fee187f4cf5c31819934a4a185e64b1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/a/baff73391437ec50ca9f43024e9e5f7cdf64e400" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/b/bb25ac8bba65f410567387df71ba15921a281838" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/c/bc29b048d9a5fb9106d0cffa1c001caf7797c254" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/1/c115217c3905f84df7db0b3fbcccc347d6665392" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/3/c328f7992d7dfb36351ee528731a2e696645af4e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/7/c7f1a9b2b44afa6c1275df6ace339afb41d579e0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/8/c866c5ef162e6daa9a2f582ec125ef4264d959a0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/b/cb2c5bb9ed01bd61f0278a3ea3987efa297c6d78" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/b/cbbcfffeeff0066c03f431d9bcde30e8d43437b1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/c/ccae8beef640137d97e98c93bf354025140bb69f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/f/cf8efc87414a87e60512ecd8813be0042b456ccd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/3/d307df8e564fb3cf1b6f735c784599029c05dc84" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/6/d681c0f66cec5bfa957a4a1d203fb8d77268699d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/6/d6d5c1beab65021093fff0d874ec029f783a7b74" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/7/d716e9e2a2f50477f3728c28a221cd3d1d2ffc70" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/7/d74ea320627c023a65bc331c425b65172e98d337" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/9/d9aadc0bc1b95001b2824c935b3cfeb555030985" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/9/d9ee4f02f39b85f4d04856076c03f75386150ba6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/a/da358bf867705ca1b673c005ca3051d9d889c835" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/a/da761738b6bdd301b57c865be513efc20c74761f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/b/db6bea373b182a82c5ef356415c6f778dc7030d2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/c/dcf4ffb63d2701d807345a06f26a912dbf1ee88e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/f/dfe00c6420f9e35f2f15bb0939ce5b5943a912be" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/1/e1357f02b855ce4a49e52a2150949cf8abc29d65" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/4/e4bc339586abe4dbe97503acdf08c74a42873265" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/8/e8ccddc8be0fc054f1cd58c6ce9cd8193bfcabd2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/a/ea7c4e2faddd485864990b3d3e728a1497892fd8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/b/ebdb6811e25b4725bd07c0ce1213e4c14c2c5ecc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/f/ef9a847afb402459f8c57d1ca0bb8a1d7d1390c6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/0/f0813a62bb653655551c5f4c021509cc5271ea6a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/0/f09646122c94a1b3afb336f23825bc9c9d2d9640" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/0/f0ab0f392280ca09ea16b1549fd917471a23f241" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/2/f26e0863a600e055989228294e9ae6bbefd83363" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/3/f37be6cb2a44d9935bde0109fe9e74023c6eb5da" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/4/f421b34c4cca5114e4fde9c24bcb8ca5a130b4e2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/6/f6df050f15d6f9babb5e24b1a5c0424ce1bab16a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/9/f9a3d2182cecdc9a0ede2177257cd463454fe67c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/a/fa3ff11d6df37d70bdd6fc61010e70d55581e304" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/a/fab9f32d2fb3569ede7e6d104b6fd56d5ca4ea3e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/b/fb1a262525c06f35b429452a7b28113c1e0272e5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/b/fbb04a2ffbafd515091b7b5b3ab6719563bab01d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-interview/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-nacos/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-nacos/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-nacos/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-nacos/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-nacos/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-nacos/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-nacos/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-nacos/src/main/java/org/fancy/nacos/FancyNacosApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-nacos/src/main/java/org/fancy/nacos/controller/DisCoveryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-nacos/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/META-INF/fancy-netty.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/AbstractLifeCycle.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/AbstractNettyConfigRemoting.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/AbstractNettyRemoting.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/AbstractRemotingClient.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/AbstractRemotingProcessor$ProcessTask.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/AbstractRemotingProcessor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/AbstractRemotingServer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/BizContext.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/CommandFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/CommandHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/ConfigurableRemoting.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/Connection.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/ConnectionEventListener.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/ConnectionEventProcessor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/ConnectionEventType.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/ConnectionManger.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/ConnectionPool.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/DefaultBizContext.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/DefaultClientConnectionManger.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/DefaultConnectionManager$ConnectionPoolCall.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/DefaultConnectionManager.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/DefaultConnectionMonitor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/InvokeCallback.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/InvokeCallbackListener.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/InvokeContext.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/InvokeFuture.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/LifeCycle.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/ProcessorManager.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/Reconnector.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/RemotingContext.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/RemotingProcessor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/ResponseStatus.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/RpcCommandType.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/Scannable.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/Url.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/channel/ConnectionFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/channel/ConnectionSelectStrategy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/channel/DefaultConnectionFactory$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/channel/DefaultConnectionFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/channel/RandomSelectStrategy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/codec/CodecFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/codec/ProtocolCodeBasedDecoder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/codec/ProtocolCodeBasedEncoder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/codec/RpcCodecFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/command/CommandCode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/command/CommandDecoder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/command/CommandEncoder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/command/RemotingCommand.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/command/RpcCommand.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/command/req/HeartbeatCommand.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/command/req/RequestCommand.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/command/resp/ResponseCommand.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/common/ConnectEventProcessor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/common/RequestBody.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/common/SimpleServerUserProcessor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/config/configs/ConfigContainer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/config/configs/ConfigItem.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/config/configs/ConfigManager.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/config/configs/ConfigType.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/config/configs/Configs.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/config/configs/DefaultConfigContainer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/config/switches/GlobalSwitch.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/config/switches/Switch.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/config/switchs/ProtocolSwitch.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/config/switchs/Switch.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/exception/CodecException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/exception/DeserializationException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/exception/InvokeException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/exception/InvokeTimeoutException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/exception/LifeCycleException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/exception/RemotingException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/exception/SerializationException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/handler/ConnectionEventHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/handler/HeartbeatHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/handler/RpcHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/handler/ServerBizHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/handler/ServerIdleHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/protocol/AbstractUserProcessor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/protocol/Protocol.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/protocol/ProtocolCode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/protocol/ProtocolManager.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/protocol/RpcCommandCode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/protocol/RpcCommandDecoder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/protocol/RpcCommandEncoder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/protocol/RpcCommandHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/protocol/RpcProtocol.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/protocol/RpcRequestCommand.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/protocol/RpcRequestProcessor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/protocol/RpcResponseCommand.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/protocol/UserProcessor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/rpc/DefaultInvokeFuture.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/rpc/NettyRemotingClient.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/rpc/NettyRemotingServer$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/rpc/NettyRemotingServer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/rpc/RpcClient.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/rpc/RpcClientRemoting.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/rpc/RpcCommandFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/rpc/RpcConnectionEventHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/rpc/RpcRemoting.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/rpc/RpcResponseResolver$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/rpc/RpcResponseResolver.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/rpc/RpcServer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/rpc/RpcServerRemoting.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/rpc/RpcTaskScanner.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/rpc/exception/ConnectionClosedException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/rpc/exception/InvokeSendFailedException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/rpc/exception/InvokeServerBusyException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/rpc/exception/InvokeServerException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/serialization/CustomSerializer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/serialization/HassianSerializer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/serialization/Serializer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/serialization/SerializerManager.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/util/AddressParserUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/util/EventLoopGroupUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/util/IDGenerator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/util/RemotingUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/classes/org/fancy/remoting/util/RunStateRecordFutureTask.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/test-classes/org/fancy/remoting/BasicUsageTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-netty/target/test-classes/org/fancy/remoting/util/AddressParseUtilTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-redis/fancy-redis" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-redis/redis-basic/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-redis/redis-basic/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-redis/redis-basic/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-redis/redis-basic/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-redis/redis-basic/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-redis/redis-basic/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-redis/redis-basic/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-redis/redis-basic/src/main/java/org/fancy/redis/basic/config/RedissonConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-redis/redis-basic/src/main/java/org/fancy/redis/basic/operator/RedissonOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-redis/redis-basic/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-redis/redis-basic/src/main/resources/redisson.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-redis/redis-basic/src/test/java/org/fancy/redis/basic/RedisBasicApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-redis/redis-basic/src/test/java/org/fancy/redis/basic/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-redis/redis-lock/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-redis/redis-lock/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-redis/redis-lock/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-redis/redis-lock/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-redis/redis-lock/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-redis/redis-lock/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-redis/redis-lock/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-redis/redis-lock/src/main/java/org/fancy/redis/lock/RedisLockApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fancy-redis/redis-lock/src/test/java/org/fancy/redis/lock/RedisLockApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fancy-rpc/fancy-rpc-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fancy-rpc/fancy-rpc-api/src/main/java/org/fancy/rpc/api/Operation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fancy-rpc/fancy-rpc-consumer/fancy-rpc-consumer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fancy-rpc/fancy-rpc-consumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fancy-rpc/fancy-rpc-consumer/src/main/java/org/fancy/rpc/consumer/ConsumerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fancy-rpc/fancy-rpc-consumer/src/main/java/org/fancy/rpc/consumer/RpcConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fancy-rpc/fancy-rpc-consumer/src/main/java/org/fancy/rpc/consumer/RpcProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fancy-rpc/fancy-rpc-consumer/src/test/java/org/fancy/rpc/consumer/RpcConsumerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fancy-rpc/fancy-rpc-provider/fancy-rpc-provider.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fancy-rpc/fancy-rpc-provider/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fancy-rpc/fancy-rpc-provider/src/main/java/org/fancy/rpc/service/ArithmeticOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fancy-rpc/fancy-rpc-registry/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fancy-rpc/fancy-rpc-registry/src/main/java/org/fancy/rpc/registry/RegistryServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fancy-rpc/fancy-rpc-registry/src/test/java/org/fancy/rpc/registry/RegistryServerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fancy-rpc/fancy-rpc-remoting/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fancy-rpc/fancy-rpc-remoting/src/main/java/org/fancy/rpc/remoting/RpcProtocol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fancy-rpc/fancy-rpc.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fancy-rpc/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fancy-netty/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fancy-netty/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fancy-redis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fancy-redis/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fancy-redis/src/main/java/org/fancy/redis/FancyRedisApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/fancy-redis/redis-basic/src/main/java/org/fancy/redis/basic/RedisBasicApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fancy-redis/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/fancy-redis/redis-lock/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fancy-redis/src/test/java/org/fancy/redis/FancyRedisApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/fancy-nacos/src/test/java/org/fancy/nacos/FancyNacosApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -313,10 +35,14 @@
     <ignored path="$PROJECT_DIR$/fancy-http/target/" />
     <ignored path="$PROJECT_DIR$/fancy-rtmp/target/" />
     <ignored path="$PROJECT_DIR$/fancy-redis/target/" />
-    <ignored path="$PROJECT_DIR$/fancy-redis/redis-basic/target/" />
-    <ignored path="$PROJECT_DIR$/fancy-interview/target/" />
-    <ignored path="$PROJECT_DIR$/fancy-redis/redis-lock/target/" />
-    <ignored path="$PROJECT_DIR$/fancy-nacos/target/" />
+    <ignored path="$PROJECT_DIR$/fancy-tomcat/target/" />
+    <ignored path="$PROJECT_DIR$/fancy-rpc/target/" />
+    <ignored path="$PROJECT_DIR$/fancy-rpc/fancy-rpc-consumer/target/" />
+    <ignored path="$PROJECT_DIR$/fancy-rpc/fancy-rpc-provider/target/" />
+    <ignored path="$PROJECT_DIR$/fancy-rpc/fancy-rpc-registry/target/" />
+    <ignored path="$PROJECT_DIR$/fancy-rpc/fancy-rpc-api/target/" />
+    <ignored path="$PROJECT_DIR$/fancy-rpc/fancy-rpc-common/target/" />
+    <ignored path="$PROJECT_DIR$/fancy-rpc/fancy-rpc-remoting/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -343,26 +69,71 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fancy-redis/redis-lock/src/main/java/org/fancy/redis/lock/RedisLockApplication.java">
+        <entry file="file://$PROJECT_DIR$/fancy-rpc/fancy-rpc-registry/src/main/java/org/fancy/rpc/registry/RegistryServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="173">
+              <caret line="80" selection-start-line="80" selection-end-line="80" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#884#885#0" expanded="true" />
+                <element signature="e#916#917#0" expanded="true" />
+                <element signature="e#1198#2007#0" expanded="true" />
+                <element signature="e#2006#2007#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fancy-rpc/fancy-rpc-consumer/src/main/java/org/fancy/rpc/consumer/RpcProxy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="41" column="64" lean-forward="true" selection-start-line="41" selection-start-column="64" selection-end-line="41" selection-end-column="64" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/tools/maven/repository/io/netty/netty-all/4.1.50.Final/netty-all-4.1.50.Final-sources.jar!/io/netty/handler/codec/LengthFieldBasedFrameDecoder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="396" selection-start-line="396" selection-end-line="396" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/tools/maven/repository/io/netty/netty-all/4.1.50.Final/netty-all-4.1.50.Final-sources.jar!/io/netty/handler/codec/serialization/ObjectDecoder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="185">
+              <caret line="68" selection-start-line="68" selection-end-line="68" />
+              <folding>
+                <element signature="e#1829#1830#0" expanded="true" />
+                <element signature="e#1873#1874#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fancy-rpc/fancy-rpc-remoting/src/main/java/org/fancy/rpc/remoting/RpcProtocol.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/Thread.java">
+        <entry file="file://$PROJECT_DIR$/fancy-rpc/fancy-rpc-consumer/src/main/java/org/fancy/rpc/consumer/ConsumerHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="2015" lean-forward="true" selection-start-line="2015" selection-end-line="2015" />
+            <state relative-caret-position="308">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
               <folding>
-                <element signature="e#6683#6684#0" expanded="true" />
-                <element signature="e#6723#6724#0" expanded="true" />
-                <element signature="e#14796#14797#0" expanded="true" />
-                <element signature="e#14860#14861#0" expanded="true" />
-                <element signature="e#15480#15481#0" expanded="true" />
-                <element signature="e#15546#15547#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -387,11 +158,8 @@
       <find>创建连接失败</find>
       <find>完成服务初始化,端</find>
       <find>等待响应超时</find>
-      <find>threads</find>
-      <find>codec</find>
-      <find>dnsMonitoringInterval</find>
-      <find>val:</find>
-      <find>val:</find>
+      <find>Netty tomcat server start</find>
+      <find>Consumer proxy co</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -403,65 +171,66 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/command/resp/ResponseCommand.java" />
-        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/exception/DeserializationException.java" />
-        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/serialization/CustomSerializer.java" />
-        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/serialization/Serializer.java" />
-        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/protocol/RpcResponseCommand.java" />
-        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/command/RpcCommand.java" />
-        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/command/RemotingCommand.java" />
-        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/exception/InvokeTimeoutException.java" />
-        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/rpc/exception/InvokeSendFailedException.java" />
-        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/rpc/exception/ConnectionClosedException.java" />
-        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/rpc/exception/InvokeServerBusyException.java" />
-        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/ResponseStatus.java" />
-        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/rpc/exception/InvokeServerException.java" />
-        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/rpc/RpcResponseResolver.java" />
-        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/serialization/HassianSerializer.java" />
-        <option value="$PROJECT_DIR$/fancy-netty/src/main/test/org/fancy/remoting/BasicUsageTest.java" />
-        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/rpc/RpcClientRemoting.java" />
-        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/rpc/RpcClient.java" />
-        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/AbstractRemotingClient.java" />
-        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/rpc/DefaultInvokeFuture.java" />
-        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/rpc/RpcRemoting.java" />
-        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/CommandHandler.java" />
-        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/protocol/Protocol.java" />
-        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/handler/RpcHandler.java" />
-        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/InvokeFuture.java" />
-        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/RemotingProcessor.java" />
-        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/protocol/RpcProtocol.java" />
-        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/ProcessorManager.java" />
-        <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/protocol/RpcCommandHandler.java" />
         <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/AbstractRemotingProcessor.java" />
         <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/RemotingContext.java" />
         <option value="$PROJECT_DIR$/fancy-netty/src/main/java/org/fancy/remoting/protocol/RpcRequestProcessor.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/fancy-redis/pom.xml" />
-        <option value="$PROJECT_DIR$/fancy-redis/fancy-redis" />
-        <option value="$PROJECT_DIR$/fancy-redis/redis-basic/src/main/java/org/fancy/redis/basic/DemoApplication.java" />
-        <option value="$PROJECT_DIR$/fancy-redis/redis-basic/src/main/java/org/fancy/redis/basic/RedisBasicApplication.java" />
-        <option value="$PROJECT_DIR$/fancy-redis/redis-basic/src/main/resources/application.yaml" />
-        <option value="$PROJECT_DIR$/fancy-redis/redis-basic/src/main/java/org/fancy/redis/basic/config/RedissonConfig.java" />
-        <option value="$PROJECT_DIR$/fancy-redis/redis-basic/src/main/resources/redisson.yaml" />
-        <option value="$PROJECT_DIR$/fancy-redis/redis-basic/src/main/java/org/fancy/redis/basic/Operator.java" />
-        <option value="$PROJECT_DIR$/fancy-redis/redis-basic/src/main/java/org/fancy/redis/basic/operator/Operator.java" />
-        <option value="$PROJECT_DIR$/fancy-redis/redis-basic/src/main/java/org/fancy/redis/basic/operator/RedissonOperator.java" />
-        <option value="$PROJECT_DIR$/fancy-redis/redis-basic/pom.xml" />
-        <option value="$PROJECT_DIR$/fancy-redis/redis-basic/src/test/java/org/fancy/redis/basic/test.java" />
-        <option value="$PROJECT_DIR$/fancy-nacos/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/fancy-nacos/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/fancy-rtmp/pom.xml" />
         <option value="$PROJECT_DIR$/fancy-netty/pom.xml" />
-        <option value="$PROJECT_DIR$/fancy-nacos/src/main/java/org/fancy/nacos/controller/DisCoveryController.java" />
-        <option value="$PROJECT_DIR$/fancy-nacos/src/main/java/org/fancy/nacos/FancyNacosApplication.java" />
-        <option value="$PROJECT_DIR$/fancy-nacos/pom.xml" />
+        <option value="$PROJECT_DIR$/fancy-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/fancy-tomcat/src/main/java/org/fancy/tomcat/req/Servlet.java" />
+        <option value="$PROJECT_DIR$/fancy-tomcat/src/main/java/org/fancy/tomcat/Servlet.java" />
+        <option value="$PROJECT_DIR$/fancy-tomcat/src/main/java/org/fancy/tomcat/http/SimpleServlet.java" />
+        <option value="$PROJECT_DIR$/fancy-tomcat/src/main/java/org/fancy/tomcat/http/FisttServlet.java" />
+        <option value="$PROJECT_DIR$/fancy-tomcat/src/main/resources/web.properties" />
+        <option value="$PROJECT_DIR$/fancy-tomcat/src/main/java/org/fancy/tomcat/Tomcat.java" />
+        <option value="$PROJECT_DIR$/fancy-tomcat/src/test/java/org/fancy/tomcat/TomcatServerTefst.java" />
+        <option value="$PROJECT_DIR$/fancy-tomcat/src/main/java/org/fancy/tomcat/exception/TomcatException.java" />
+        <option value="$PROJECT_DIR$/fancy-tomcat/src/test/java/org/fancy/tomcat/TomcatServerTest.java" />
+        <option value="$PROJECT_DIR$/fancy-tomcat/src/main/java/org/fancy/tomcat/TomcatServer.java" />
+        <option value="$PROJECT_DIR$/fancy-tomcat/src/main/java/org/fancy/tomcat/AbstractServer.java" />
+        <option value="$PROJECT_DIR$/fancy-tomcat/src/main/java/org/fancy/tomcat/server/TomcatServer.java" />
+        <option value="$PROJECT_DIR$/fancy-tomcat/src/main/java/org/fancy/tomcat/server/SimpleTomcatTomcatServer.java" />
+        <option value="$PROJECT_DIR$/fancy-tomcat/pom.xml" />
+        <option value="$PROJECT_DIR$/fancy-tomcat/src/main/java/org/fancy/tomcat/AbstractTomcatServer.java" />
+        <option value="$PROJECT_DIR$/fancy-tomcat/src/main/java/org/fancy/tomcat/AbstractNettyServlet.java" />
+        <option value="$PROJECT_DIR$/fancy-tomcat/src/main/java/org/fancy/tomcat/req/Request.java" />
+        <option value="$PROJECT_DIR$/fancy-tomcat/src/main/java/org/fancy/tomcat/req/SimpleRequest.java" />
+        <option value="$PROJECT_DIR$/fancy-tomcat/src/main/java/org/fancy/tomcat/resp/Response.java" />
+        <option value="$PROJECT_DIR$/fancy-tomcat/src/main/java/org/fancy/tomcat/resp/SimpleResponse.java" />
+        <option value="$PROJECT_DIR$/fancy-tomcat/src/main/java/org/fancy/tomcat/req/NettyRequest.java" />
+        <option value="$PROJECT_DIR$/fancy-tomcat/src/main/java/org/fancy/tomcat/http/SecondServlet.java" />
+        <option value="$PROJECT_DIR$/fancy-tomcat/src/main/java/org/fancy/tomcat/http/FirstServlet.java" />
+        <option value="$PROJECT_DIR$/fancy-tomcat/src/main/java/org/fancy/tomcat/AbstractServlet.java" />
+        <option value="$PROJECT_DIR$/fancy-tomcat/src/main/java/org/fancy/tomcat/resp/NettyResponse.java" />
+        <option value="$PROJECT_DIR$/fancy-tomcat/src/test/java/org/fancy/tomcat/SimpleTomcatServerTest.java" />
+        <option value="$PROJECT_DIR$/fancy-tomcat/src/main/java/org/fancy/tomcat/server/SimpleTomcatServer.java" />
+        <option value="$PROJECT_DIR$/fancy-tomcat/src/main/java/org/fancy/tomcat/server/NettyTomcatServer.java" />
+        <option value="$PROJECT_DIR$/fancy-rpc/fancy-rpc-api/src/main/java/org/fancy/rpc/api/ArithmeticOperation.java" />
+        <option value="$PROJECT_DIR$/fancy-rpc/fancy-rpc-api/src/main/java/org/fancy/rpc/api/Operation.java" />
+        <option value="$PROJECT_DIR$/fancy-rpc/fancy-rpc-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/fancy-rpc/fancy-rpc-provider/src/main/java/org/fancy/rpc/service/ArithmeticOperation.java" />
+        <option value="$PROJECT_DIR$/fancy-rpc/pom.xml" />
+        <option value="$PROJECT_DIR$/fancy-rpc/fancy-rpc-consumer/src/main/java/org/fancy/rpc/consumer/RpcConsumer.java" />
+        <option value="$PROJECT_DIR$/fancy-rpc/fancy-rpc-remoting/pom.xml" />
+        <option value="$PROJECT_DIR$/fancy-rpc/fancy-rpc-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/fancy-rpc/fancy-rpc-consumer/src/main/java/org/fancy/rpc/consumer/ConsumerHandler.java" />
+        <option value="$PROJECT_DIR$/fancy-rpc/fancy-rpc-remoting/src/main/java/org/fancy/rpc/remoting/RpcProrocol.java" />
+        <option value="$PROJECT_DIR$/fancy-rpc/fancy-rpc-registry/pom.xml" />
+        <option value="$PROJECT_DIR$/fancy-rpc/fancy-rpc-registry/src/test/java/org/fancy/rpc/registry/RegistryServerTest.java" />
+        <option value="$PROJECT_DIR$/fancy-rpc/fancy-rpc-consumer/src/test/java/org/fancy/rpc/consumer/RpcConsumerTest.java" />
+        <option value="$PROJECT_DIR$/fancy-rpc/fancy-rpc-remoting/src/main/java/org/fancy/rpc/remoting/RpcProtocol.java" />
+        <option value="$PROJECT_DIR$/fancy-rpc/fancy-rpc-consumer/src/main/java/org/fancy/rpc/consumer/RpcProxy.java" />
+        <option value="$PROJECT_DIR$/fancy-rpc/fancy-rpc-registry/src/main/java/org/fancy/rpc/registry/RegistryServer.java" />
       </list>
     </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="D:/tools/apache-maven-3.6.1" />
-        <option name="userSettingsFile" value="D:\tools\apache-maven-3.6.1\conf\aliSettings.xml" />
+        <option name="localRepository" value="D:\tools\maven\repository" />
+        <option name="mavenHome" value="D:/tools/maven/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\tools\maven\apache-maven-3.6.1\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -477,43 +246,20 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="fancy-http" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="fancy-rpc" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="fancy-http" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="fancy-nacos" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="fancy-nacos" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="fancy-rpc" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="fancy-nacos" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="org.springframework.cloud:spring-cloud-starter-alibaba-nacos-discovery:0.9.0.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+          <item name="fancy-rtmp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="fancy-nacos" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="org.springframework.cloud:spring-cloud-starter-alibaba-nacos-discovery:0.9.0.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-          <item name="org.springframework.cloud:spring-cloud-alibaba-nacos-discovery:0.9.0.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="redis-basic" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="redis-basic" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="fancy-tomcat" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
       </expand>
       <select />
@@ -522,10 +268,10 @@
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="105" />
-    <option name="width" value="1831" />
-    <option name="height" value="1048" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="485" />
+    <option name="width" value="1440" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -535,6 +281,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -545,28 +293,276 @@
             <path>
               <item name="fancy-projects" type="b2602c69:ProjectViewProjectNode" />
               <item name="fancy-projects" type="462c0819:PsiDirectoryNode" />
-              <item name="fancy-rtmp" type="462c0819:PsiDirectoryNode" />
+              <item name="fancy-rpc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fancy-projects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fancy-projects" type="462c0819:PsiDirectoryNode" />
+              <item name="fancy-rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="fancy-rpc-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fancy-projects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fancy-projects" type="462c0819:PsiDirectoryNode" />
+              <item name="fancy-rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="fancy-rpc-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fancy-projects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fancy-projects" type="462c0819:PsiDirectoryNode" />
+              <item name="fancy-rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="fancy-rpc-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fancy-projects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fancy-projects" type="462c0819:PsiDirectoryNode" />
+              <item name="fancy-rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="fancy-rpc-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fancy-projects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fancy-projects" type="462c0819:PsiDirectoryNode" />
+              <item name="fancy-rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="fancy-rpc-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fancy-projects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fancy-projects" type="462c0819:PsiDirectoryNode" />
+              <item name="fancy-rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="fancy-rpc-consumer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fancy-projects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fancy-projects" type="462c0819:PsiDirectoryNode" />
+              <item name="fancy-rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="fancy-rpc-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fancy-projects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fancy-projects" type="462c0819:PsiDirectoryNode" />
+              <item name="fancy-rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="fancy-rpc-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fancy-projects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fancy-projects" type="462c0819:PsiDirectoryNode" />
+              <item name="fancy-rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="fancy-rpc-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fancy-projects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fancy-projects" type="462c0819:PsiDirectoryNode" />
+              <item name="fancy-rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="fancy-rpc-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fancy-projects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fancy-projects" type="462c0819:PsiDirectoryNode" />
+              <item name="fancy-rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="fancy-rpc-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fancy-projects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fancy-projects" type="462c0819:PsiDirectoryNode" />
+              <item name="fancy-rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="fancy-rpc-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fancy-projects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fancy-projects" type="462c0819:PsiDirectoryNode" />
+              <item name="fancy-rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="fancy-rpc-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fancy-projects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fancy-projects" type="462c0819:PsiDirectoryNode" />
+              <item name="fancy-rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="fancy-rpc-provider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fancy-projects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fancy-projects" type="462c0819:PsiDirectoryNode" />
+              <item name="fancy-rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="fancy-rpc-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fancy-projects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fancy-projects" type="462c0819:PsiDirectoryNode" />
+              <item name="fancy-rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="fancy-rpc-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fancy-projects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fancy-projects" type="462c0819:PsiDirectoryNode" />
+              <item name="fancy-rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="fancy-rpc-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fancy-projects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fancy-projects" type="462c0819:PsiDirectoryNode" />
+              <item name="fancy-rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="fancy-rpc-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fancy-projects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fancy-projects" type="462c0819:PsiDirectoryNode" />
+              <item name="fancy-rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="fancy-rpc-registry" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fancy-projects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fancy-projects" type="462c0819:PsiDirectoryNode" />
+              <item name="fancy-rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="fancy-rpc-registry" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fancy-projects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fancy-projects" type="462c0819:PsiDirectoryNode" />
+              <item name="fancy-rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="fancy-rpc-registry" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fancy-projects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fancy-projects" type="462c0819:PsiDirectoryNode" />
+              <item name="fancy-rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="fancy-rpc-registry" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fancy-projects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fancy-projects" type="462c0819:PsiDirectoryNode" />
+              <item name="fancy-rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="fancy-rpc-registry" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="registry" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fancy-projects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fancy-projects" type="462c0819:PsiDirectoryNode" />
+              <item name="fancy-rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="fancy-rpc-registry" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fancy-projects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fancy-projects" type="462c0819:PsiDirectoryNode" />
+              <item name="fancy-rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="fancy-rpc-registry" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fancy-projects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fancy-projects" type="462c0819:PsiDirectoryNode" />
+              <item name="fancy-rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="fancy-rpc-registry" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="registry" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fancy-projects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fancy-projects" type="462c0819:PsiDirectoryNode" />
+              <item name="fancy-rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="fancy-rpc-remoting" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fancy-projects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fancy-projects" type="462c0819:PsiDirectoryNode" />
+              <item name="fancy-rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="fancy-rpc-remoting" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fancy-projects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fancy-projects" type="462c0819:PsiDirectoryNode" />
+              <item name="fancy-rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="fancy-rpc-remoting" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fancy-projects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fancy-projects" type="462c0819:PsiDirectoryNode" />
+              <item name="fancy-rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="fancy-rpc-remoting" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fancy-projects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fancy-projects" type="462c0819:PsiDirectoryNode" />
+              <item name="fancy-rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="fancy-rpc-remoting" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="remoting" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="RequestMappingsPanelOrder0" value="0" />
-    <property name="RequestMappingsPanelOrder1" value="1" />
-    <property name="RequestMappingsPanelWidth0" value="75" />
-    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../fancy-program" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -575,6 +571,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.50583243" />
@@ -597,7 +594,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.FancyNacosApplication">
+  <component name="RunManager" selected="JUnit.RpcConsumerTest.testConsume">
     <configuration name="BasicUsageTest.testSync" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="fancy-netty" />
       <extension name="coverage">
@@ -614,73 +611,66 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test.testBatch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="redis-basic" />
+    <configuration name="RegistryServerTest.testRegistry" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="fancy-rpc-registry" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.fancy.redis.basic.*" />
+          <option name="PATTERN" value="org.fancy.rpc.registry.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.fancy.redis.basic" />
-      <option name="MAIN_CLASS_NAME" value="org.fancy.redis.basic.test" />
-      <option name="METHOD_NAME" value="testBatch" />
+      <option name="PACKAGE_NAME" value="org.fancy.rpc.registry" />
+      <option name="MAIN_CLASS_NAME" value="org.fancy.rpc.registry.RegistryServerTest" />
+      <option name="METHOD_NAME" value="testRegistry" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test.testExpire" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="redis-basic" />
+    <configuration name="RpcConsumerTest.testConsume" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="fancy-rpc-consumer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.fancy.redis.basic.*" />
+          <option name="PATTERN" value="org.fancy.rpc.consumer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.fancy.redis.basic" />
-      <option name="MAIN_CLASS_NAME" value="org.fancy.redis.basic.test" />
-      <option name="METHOD_NAME" value="testExpire" />
+      <option name="PACKAGE_NAME" value="org.fancy.rpc.consumer" />
+      <option name="MAIN_CLASS_NAME" value="org.fancy.rpc.consumer.RpcConsumerTest" />
+      <option name="METHOD_NAME" value="testConsume" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test.testSimple" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="redis-basic" />
+    <configuration name="SimpleTomcatServerTest.testNettyServer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="fancy-tomcat" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.fancy.redis.basic.*" />
+          <option name="PATTERN" value="org.fancy.tomcat.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.fancy.redis.basic" />
-      <option name="MAIN_CLASS_NAME" value="org.fancy.redis.basic.test" />
-      <option name="METHOD_NAME" value="testSimple" />
+      <option name="PACKAGE_NAME" value="org.fancy.tomcat" />
+      <option name="MAIN_CLASS_NAME" value="org.fancy.tomcat.SimpleTomcatServerTest" />
+      <option name="METHOD_NAME" value="testNettyServer" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test.testString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="redis-basic" />
+    <configuration name="SimpleTomcatServerTest.testServer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="fancy-tomcat" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.fancy.redis.basic.operator.*" />
+          <option name="PATTERN" value="org.fancy.tomcat.server.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.fancy.redis.basic" />
-      <option name="MAIN_CLASS_NAME" value="org.fancy.redis.basic.test" />
-      <option name="METHOD_NAME" value="testString" />
+      <option name="PACKAGE_NAME" value="org.fancy.tomcat" />
+      <option name="MAIN_CLASS_NAME" value="org.fancy.tomcat.SimpleTomcatServerTest" />
+      <option name="METHOD_NAME" value="testServer" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="redis-basic" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.fancy.redis.basic.RedisBasicApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -692,13 +682,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FancyNacosApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="fancy-nacos" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.fancy.nacos.FancyNacosApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="FancyRedisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="fancy-redis" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.fancy.redis.FancyRedisApplication" />
@@ -706,19 +689,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RedisLockApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="redis-lock" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.fancy.redis.lock.RedisLockApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.test.testExpire" />
-        <item itemvalue="JUnit.test.testBatch" />
-        <item itemvalue="JUnit.test.testSimple" />
-        <item itemvalue="JUnit.test.testString" />
+        <item itemvalue="JUnit.RpcConsumerTest.testConsume" />
+        <item itemvalue="JUnit.RegistryServerTest.testRegistry" />
+        <item itemvalue="JUnit.SimpleTomcatServerTest.testNettyServer" />
+        <item itemvalue="JUnit.SimpleTomcatServerTest.testServer" />
         <item itemvalue="JUnit.BasicUsageTest.testSync" />
       </list>
     </recent_temporary>
@@ -745,15 +721,9 @@
       <workItem from="1599716471723" duration="8651000" />
       <workItem from="1599785449518" duration="15033000" />
       <workItem from="1600060334079" duration="913000" />
-      <workItem from="1601015601631" duration="8387000" />
-      <workItem from="1605160365261" duration="2037000" />
-      <workItem from="1605227093469" duration="533000" />
-      <workItem from="1605233548386" duration="1670000" />
-      <workItem from="1605236876975" duration="12980000" />
-      <workItem from="1605488319029" duration="5631000" />
-      <workItem from="1605660214115" duration="1485000" />
-      <workItem from="1606290821663" duration="3464000" />
-      <workItem from="1606351840284" duration="1269000" />
+      <workItem from="1601015601631" duration="8230000" />
+      <workItem from="1608373801062" duration="19621000" />
+      <workItem from="1608548918717" duration="10127000" />
     </task>
     <task id="LOCAL-00001" summary="client">
       <created>1598866820512</created>
@@ -790,60 +760,53 @@
       <option name="project" value="LOCAL" />
       <updated>1599810985763</updated>
     </task>
-    <task id="LOCAL-00006" summary="handle invoke">
-      <created>1601024334612</created>
+    <task id="LOCAL-00006" summary="tomcat">
+      <created>1608469201000</created>
       <option name="number" value="00006" />
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
-      <updated>1601024334612</updated>
+      <updated>1608469201000</updated>
     </task>
-    <task id="LOCAL-00007" summary="添加redis">
-      <created>1605235579168</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1605235579168</updated>
-    </task>
-    <option name="localTasksCounter" value="8" />
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="test_testSimple - 2020.11.13 at 15h 55m 33s.xml">
-      <configuration name="test.testSimple" configurationId="JUnit" />
+    <history-entry file="RpcConsumerTest_testConsume - 2020.12.21 at 21h 49m 14s.xml">
+      <configuration name="RpcConsumerTest.testConsume" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="test_testBatch - 2020.11.13 at 16h 07m 16s.xml">
-      <configuration name="test.testBatch" configurationId="JUnit" />
+    <history-entry file="RpcConsumerTest_testConsume - 2020.12.21 at 21h 51m 45s.xml">
+      <configuration name="RpcConsumerTest.testConsume" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="test_testBatch - 2020.11.13 at 16h 08m 30s.xml">
-      <configuration name="test.testBatch" configurationId="JUnit" />
+    <history-entry file="RpcConsumerTest_testConsume - 2020.12.21 at 21h 52m 37s.xml">
+      <configuration name="RpcConsumerTest.testConsume" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="test_testBatch - 2020.11.13 at 16h 11m 05s.xml">
-      <configuration name="test.testBatch" configurationId="JUnit" />
+    <history-entry file="RpcConsumerTest_testConsume - 2020.12.21 at 21h 53m 10s.xml">
+      <configuration name="RpcConsumerTest.testConsume" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="test_testBatch - 2020.11.13 at 16h 11m 45s.xml">
-      <configuration name="test.testBatch" configurationId="JUnit" />
+    <history-entry file="RegistryServerTest_testRegistry - 2020.12.21 at 21h 53m 11s.xml">
+      <configuration name="RegistryServerTest.testRegistry" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="test_testExpire - 2020.11.13 at 16h 25m 03s.xml">
-      <configuration name="test.testExpire" configurationId="JUnit" />
+    <history-entry file="RegistryServerTest_testRegistry - 2020.12.21 at 21h 55m 30s.xml">
+      <configuration name="RegistryServerTest.testRegistry" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="test_testExpire - 2020.11.13 at 16h 25m 34s.xml">
-      <configuration name="test.testExpire" configurationId="JUnit" />
+    <history-entry file="RpcConsumerTest_testConsume - 2020.12.21 at 21h 55m 30s.xml">
+      <configuration name="RpcConsumerTest.testConsume" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="test_testExpire - 2020.11.13 at 16h 26m 53s.xml">
-      <configuration name="test.testExpire" configurationId="JUnit" />
+    <history-entry file="RpcConsumerTest_testConsume - 2020.12.21 at 21h 56m 15s.xml">
+      <configuration name="RpcConsumerTest.testConsume" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="test_testExpire - 2020.11.13 at 16h 27m 08s.xml">
-      <configuration name="test.testExpire" configurationId="JUnit" />
+    <history-entry file="RpcConsumerTest_testConsume - 2020.12.21 at 21h 56m 41s.xml">
+      <configuration name="RpcConsumerTest.testConsume" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="test_testExpire - 2020.11.13 at 16h 27m 56s.xml">
-      <configuration name="test.testExpire" configurationId="JUnit" />
+    <history-entry file="RegistryServerTest_testRegistry - 2020.12.21 at 22h 08m 01s.xml">
+      <configuration name="RegistryServerTest.testRegistry" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="195016000" />
+    <option name="totallyTimeSpent" value="195538000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="105" y="0" width="1831" height="1048" extended-state="0" />
+    <frame x="-7" y="-7" width="1488" height="878" extended-state="6" />
     <layout>
       <window_info id="Web" order="0" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -852,13 +815,13 @@
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="7" visible="true" weight="0.17052513" />
+      <window_info active="true" content_ui="combo" id="Project" order="7" visible="true" weight="0.25174826" />
       <window_info anchor="bottom" id="Java Enterprise" order="0" />
       <window_info anchor="bottom" id="Spring" order="1" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Find" order="3" weight="0.32843652" />
-      <window_info anchor="bottom" id="Run" order="4" weight="0.50274426" />
-      <window_info anchor="bottom" id="Debug" order="5" weight="0.41492864" />
+      <window_info anchor="bottom" id="Run" order="4" visible="true" weight="0.51876676" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.68766755" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="8" />
@@ -867,7 +830,7 @@
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Terminal" order="12" weight="0.31794333" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="14" weight="0.23117709" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.2627346" />
       <window_info anchor="bottom" id="REST Client" order="15" />
       <window_info anchor="bottom" id="SonarLint" order="16" />
       <window_info anchor="right" id="Bean Validation" order="0" weight="0.32954547" />
@@ -876,11 +839,11 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" weight="0.40824392" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.18741259" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Database" order="9" weight="0.32723773" />
-      <window_info anchor="right" id="SciView" order="10" weight="0.32847533" />
+      <window_info anchor="right" id="SciView" order="10" weight="0.32899022" />
     </layout>
     <layout-to-restore>
       <window_info id="Web" order="0" side_tool="true" />
@@ -890,13 +853,13 @@
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="7" visible="true" weight="0.16489063" />
+      <window_info active="true" content_ui="combo" id="Project" order="7" visible="true" weight="0.19650349" />
       <window_info anchor="bottom" id="Java Enterprise" order="0" />
       <window_info anchor="bottom" id="Spring" order="1" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Find" order="3" weight="0.32843652" />
-      <window_info anchor="bottom" id="Run" order="4" weight="0.15588547" />
-      <window_info active="true" anchor="bottom" id="Debug" order="5" visible="true" weight="0.17709439" />
+      <window_info anchor="bottom" id="Run" order="4" weight="0.23324397" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.26675603" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="8" />
@@ -905,7 +868,7 @@
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Terminal" order="12" weight="0.31794333" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="14" weight="0.23117709" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.230563" />
       <window_info anchor="bottom" id="REST Client" order="15" />
       <window_info anchor="bottom" id="SonarLint" order="16" />
       <window_info anchor="right" id="Bean Validation" order="0" weight="0.32954547" />
@@ -914,7 +877,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" weight="0.22790404" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.32307693" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Database" order="9" weight="0.32723773" />
@@ -930,9 +893,8 @@
     <MESSAGE value="连接" />
     <MESSAGE value="one way invoke" />
     <MESSAGE value="sync invoke" />
-    <MESSAGE value="handle invoke" />
-    <MESSAGE value="添加redis" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加redis" />
+    <MESSAGE value="tomcat" />
+    <option name="LAST_COMMIT_MESSAGE" value="tomcat" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -986,407 +948,439 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/fancy-redis/fancy-redis.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fancy-redis/fancy-redis">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/IllegalStateException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fancy-redis/redis-basic/src/main/java/org/fancy/redis/basic/RedisBasicApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="56">
+          <caret line="34" column="18" lean-forward="true" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#250#251#0" expanded="true" />
-            <element signature="e#316#317#0" expanded="true" />
+            <element signature="e#2645#2646#0" expanded="true" />
+            <element signature="e#2673#2674#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fancy-redis/redis-basic/src/test/java/org/fancy/redis/basic/RedisBasicApplicationTests.java">
+    <entry file="file://$PROJECT_DIR$/fancy-tomcat/src/main/java/org/fancy/tomcat/exception/TomcatException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fancy-redis/redis-basic/src/main/resources/application.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/redisson/redisson/3.13.6/redisson-3.13.6.jar!/org/redisson/api/RedissonClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="42" column="18" selection-start-line="42" selection-start-column="6" selection-end-line="42" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/redisson/redisson/3.13.6/redisson-3.13.6.jar!/org/redisson/config/Config.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/redisson/redisson/3.13.6/redisson-3.13.6-sources.jar!/org/redisson/config/Config.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="40" column="2" lean-forward="true" selection-start-line="40" selection-start-column="2" selection-end-line="40" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/redisson/redisson/3.13.6/redisson-3.13.6-sources.jar!/org/redisson/config/BaseConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1796">
-          <caret line="28" column="50" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fancy-redis/redis-basic/src/main/java/org/fancy/redis/basic/config/RedissonConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+        <state>
+          <caret column="35" lean-forward="true" selection-start-column="35" selection-end-column="35" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#130#131#0" expanded="true" />
+            <element signature="e#160#161#0" expanded="true" />
+            <element signature="e#207#208#0" expanded="true" />
+            <element signature="e#235#236#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/redisson/redisson/3.13.6/redisson-3.13.6-sources.jar!/org/redisson/config/SingleServerConfig.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/net/Socket.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="59" column="38" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="38" />
+        <state relative-caret-position="191">
+          <caret line="900" column="23" selection-start-line="900" selection-start-column="23" selection-end-line="900" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fancy-redis/redis-basic/src/main/resources/redisson.yaml">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/net/ServerSocket.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+        <state relative-caret-position="185">
+          <caret line="126" column="11" selection-start-line="126" selection-start-column="11" selection-end-line="126" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fancy-redis/redis-basic/pom.xml">
+    <entry file="file://$PROJECT_DIR$/fancy-tomcat/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="202">
+          <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fancy-redis/pom.xml">
+    <entry file="jar://D:/tools/maven/repository/io/netty/netty-all/4.1.50.Final/netty-all-4.1.50.Final.jar!/io/netty/bootstrap/ServerBootstrap.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+        <state relative-caret-position="133">
+          <caret line="37" column="11" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/redisson/redisson/3.13.6/redisson-3.13.6-sources.jar!/org/redisson/RedissonLock.java">
+    <entry file="jar://D:/tools/maven/repository/io/netty/netty-all/4.1.50.Final/netty-all-4.1.50.Final.jar!/io/netty/util/internal/SocketUtils.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="536" column="36" selection-start-line="536" selection-start-column="36" selection-end-line="536" selection-end-column="36" />
+        <state relative-caret-position="168">
+          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fancy-redis/redis-basic/src/main/java/org/fancy/redis/basic/operator/RedissonOperator.java">
+    <entry file="jar://D:/tools/maven/repository/io/netty/netty-all/4.1.50.Final/netty-all-4.1.50.Final.jar!/io/netty/bootstrap/AbstractBootstrap.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="31" column="24" lean-forward="true" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+        <state relative-caret-position="194">
+          <caret line="160" column="25" selection-start-line="160" selection-start-column="25" selection-end-line="160" selection-end-column="25" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#5307#5308#0" expanded="true" />
+            <element signature="e#5372#5373#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/redisson/redisson/3.13.6/redisson-3.13.6-sources.jar!/org/redisson/api/RObject.java">
+    <entry file="jar://D:/tools/maven/repository/io/netty/netty-all/4.1.50.Final/netty-all-4.1.50.Final.jar!/io/netty/handler/codec/http/HttpRequest.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="162" column="12" selection-start-line="162" selection-start-column="12" selection-end-line="162" selection-end-column="12" />
+        <state relative-caret-position="350">
+          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/redisson/redisson/3.13.6/redisson-3.13.6-sources.jar!/org/redisson/api/BatchOptions.java">
+    <entry file="jar://D:/tools/maven/repository/io/netty/netty-all/4.1.50.Final/netty-all-4.1.50.Final-sources.jar!/io/netty/bootstrap/AbstractBootstrap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="80" column="22" selection-start-line="80" selection-start-column="22" selection-end-line="80" selection-end-column="22" />
-          <folding>
-            <element signature="e#2371#2372#0" expanded="true" />
-            <element signature="e#2412#2413#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="240">
+          <caret line="244" column="25" selection-start-line="244" selection-start-column="25" selection-end-line="244" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25488">
-          <caret line="1011" column="5" selection-start-line="1011" selection-start-column="5" selection-end-line="1011" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/InterruptedException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="49" column="6" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/redisson/redisson/3.13.6/redisson-3.13.6-sources.jar!/org/redisson/api/RBucket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1674">
-          <caret line="76" column="12" selection-start-line="76" selection-start-column="12" selection-end-line="76" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/redisson/redisson/3.13.6/redisson-3.13.6-sources.jar!/org/redisson/RedissonBatch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/redisson/redisson/3.13.6/redisson-3.13.6-sources.jar!/org/redisson/api/RBatch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10908">
-          <caret line="419" column="11" selection-start-line="419" selection-start-column="11" selection-end-line="419" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/redisson/redisson/3.13.6/redisson-3.13.6-sources.jar!/org/redisson/api/BatchResult.java">
+    <entry file="jar://D:/tools/maven/repository/io/netty/netty-all/4.1.50.Final/netty-all-4.1.50.Final-sources.jar!/io/netty/handler/codec/http/HttpRequest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
-          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+          <caret line="58" column="33" selection-start-line="58" selection-start-column="33" selection-end-line="58" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/redisson/redisson/3.13.6/redisson-3.13.6-sources.jar!/org/redisson/api/RBucketAsync.java">
+    <entry file="file://$PROJECT_DIR$/fancy-tomcat/src/main/java/org/fancy/tomcat/AbstractNettyServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="40" column="15" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="15" />
+        <state relative-caret-position="140">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/redisson/redisson/3.13.6/redisson-3.13.6-sources.jar!/org/redisson/Redisson.java">
+    <entry file="file://$PROJECT_DIR$/fancy-tomcat/src/main/java/org/fancy/tomcat/req/SimpleRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15282">
-          <caret line="630" column="48" selection-start-line="630" selection-start-column="48" selection-end-line="630" selection-end-column="48" />
+        <state relative-caret-position="192">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="25" />
           <folding>
-            <element signature="e#22700#22701#0" expanded="true" />
-            <element signature="e#22759#22760#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#663#664#0" expanded="true" />
+            <element signature="e#690#691#0" expanded="true" />
+            <element signature="e#737#738#0" expanded="true" />
+            <element signature="e#764#765#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/redisson/redisson/3.13.6/redisson-3.13.6-sources.jar!/org/redisson/api/RList.java">
+    <entry file="file://$PROJECT_DIR$/fancy-tomcat/src/main/java/org/fancy/tomcat/req/Request.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+        <state relative-caret-position="196">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/redisson/redisson/3.13.6/redisson-3.13.6-sources.jar!/org/redisson/RedissonList.java">
+    <entry file="file://$PROJECT_DIR$/fancy-tomcat/src/main/java/org/fancy/tomcat/resp/Response.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="791">
-          <caret line="855" column="53" lean-forward="true" selection-start-line="855" selection-start-column="53" selection-end-line="855" selection-end-column="53" />
+        <state relative-caret-position="112">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fancy-tomcat/src/main/java/org/fancy/tomcat/resp/SimpleResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
-            <element signature="e#3536#3537#0" expanded="true" />
-            <element signature="e#3585#3586#0" expanded="true" />
-            <element signature="e#17928#17972#0" expanded="true" />
-            <element signature="e#18432#18476#0" expanded="true" />
-            <element signature="e#18993#19037#0" expanded="true" />
-            <element signature="e#28159#28167#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/redisson/redisson/3.13.6/redisson-3.13.6-sources.jar!/org/redisson/api/RFuture.java">
+    <entry file="jar://D:/tools/maven/repository/io/netty/netty-all/4.1.50.Final/netty-all-4.1.50.Final-sources.jar!/io/netty/channel/ChannelInitializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="56" column="6" selection-start-line="56" selection-start-column="6" selection-end-line="56" selection-end-column="6" />
+        <state relative-caret-position="174">
+          <caret line="72" column="13" lean-forward="true" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/redisson/redisson/3.13.6/redisson-3.13.6-sources.jar!/org/redisson/client/protocol/RedisCommand.java">
+    <entry file="file://$PROJECT_DIR$/fancy-tomcat/src/main/java/org/fancy/tomcat/resp/NettyResponse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="65" column="10" lean-forward="true" selection-start-line="65" selection-start-column="10" selection-end-line="65" selection-end-column="10" />
+        <state relative-caret-position="392">
+          <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
           <folding>
-            <element signature="e#2134#2135#0" expanded="true" />
-            <element signature="e#2175#2176#0" expanded="true" />
-            <element signature="e#2589#2590#0" expanded="true" />
-            <element signature="e#2636#2637#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#251#252#0" expanded="true" />
+            <element signature="e#281#282#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/redisson/redisson/3.13.6/redisson-3.13.6-sources.jar!/org/redisson/client/protocol/RedisCommands.java">
+    <entry file="file://$PROJECT_DIR$/fancy-tomcat/src/main/java/org/fancy/tomcat/AbstractServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="210" column="43" selection-start-line="210" selection-start-column="43" selection-end-line="210" selection-end-column="43" />
+        <state>
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
-            <element signature="e#17125#17133#0" expanded="true" />
-            <element signature="e#20761#20770#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/Queue.java">
+    <entry file="file://$PROJECT_DIR$/fancy-tomcat/src/main/java/org/fancy/tomcat/http/SecondServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1377">
-          <caret line="84" column="2" selection-start-line="84" selection-start-column="2" selection-end-line="84" selection-end-column="2" />
+        <state relative-caret-position="112">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/redisson/redisson/3.13.6/redisson-3.13.6-sources.jar!/org/redisson/RedissonQueue.java">
+    <entry file="file://$PROJECT_DIR$/fancy-tomcat/src/main/java/org/fancy/tomcat/http/FirstServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1350">
-          <caret line="79" column="5" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
+        <state relative-caret-position="140">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fancy-redis/redis-lock/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fancy-interview/pom.xml">
+    <entry file="file://$PROJECT_DIR$/fancy-tomcat/src/main/java/org/fancy/tomcat/req/NettyRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/redisson/redisson/3.13.6/redisson-3.13.6-sources.jar!/org/redisson/RedissonObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="88" column="23" lean-forward="true" selection-start-line="88" selection-start-column="23" selection-end-line="88" selection-end-column="23" />
+        <state relative-caret-position="388">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
           <folding>
-            <element signature="e#2664#2665#0" expanded="true" />
-            <element signature="e#2714#2715#0" expanded="true" />
-            <element signature="e#2987#2988#0" expanded="true" />
-            <element signature="e#3014#3015#0" expanded="true" />
-            <element signature="e#7160#7161#0" expanded="true" />
-            <element signature="e#7203#7204#0" expanded="true" />
+            <element signature="e#200#201#0" expanded="true" />
+            <element signature="e#241#242#0" expanded="true" />
+            <element signature="e#297#298#0" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
+            <element signature="e#371#372#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fancy-redis/redis-basic/src/test/java/org/fancy/redis/basic/test.java">
+    <entry file="file://$PROJECT_DIR$/fancy-tomcat/src/test/java/org/fancy/tomcat/SimpleTomcatServerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="224">
+          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/redisson/redisson/3.13.6/redisson-3.13.6-sources.jar!/org/redisson/command/CommandAsyncService.java">
+    <entry file="file://$PROJECT_DIR$/fancy-tomcat/src/main/java/org/fancy/tomcat/AbstractTomcatServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14472">
-          <caret line="603" column="50" selection-start-line="603" selection-start-column="50" selection-end-line="603" selection-end-column="50" />
+        <state relative-caret-position="560">
+          <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fancy-netty/pom.xml">
+    <entry file="file://$PROJECT_DIR$/fancy-rpc/fancy-rpc-api/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" selection-start-line="4" selection-end-line="9" selection-end-column="38" />
+        <state relative-caret-position="308">
+          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fancy-nacos/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/fancy-tomcat/src/main/java/org/fancy/tomcat/server/SimpleTomcatServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        <state relative-caret-position="-4">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-context/2.2.5.RELEASE/spring-cloud-context-2.2.5.RELEASE.jar!/org/springframework/cloud/autoconfigure/ConfigurationPropertiesRebinderAutoConfiguration.class">
+    <entry file="file://$PROJECT_DIR$/fancy-rpc/fancy-rpc-api/src/main/java/org/fancy/rpc/api/Operation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="45" column="32" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
+        <state relative-caret-position="56">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fancy-rpc/fancy-rpc-provider/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="13" selection-start-line="13" selection-end-line="19" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+        <state relative-caret-position="168">
+          <caret line="48" column="20" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/redisson/redisson/3.13.6/redisson-3.13.6-sources.jar!/org/redisson/command/RedisExecutor.java">
+    <entry file="file://$PROJECT_DIR$/fancy-tomcat/src/main/java/org/fancy/tomcat/server/NettyTomcatServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2295">
-          <caret line="129" column="19" selection-start-line="129" selection-start-column="19" selection-end-line="129" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/redisson/redisson/3.13.6/redisson-3.13.6-sources.jar!/org/redisson/misc/RPromise.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/redisson/redisson/3.13.6/redisson-3.13.6-sources.jar!/org/redisson/command/CommandAsyncExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1890">
-          <caret line="99" column="22" selection-start-line="99" selection-start-column="22" selection-end-line="99" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/redisson/redisson/3.13.6/redisson-3.13.6-sources.jar!/org/redisson/api/RedissonClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21060">
-          <caret line="799" column="22" selection-start-line="799" selection-start-column="8" selection-end-line="799" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fancy-nacos/src/main/java/org/fancy/nacos/controller/DisCoveryController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="12" column="34" lean-forward="true" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+        <state relative-caret-position="220">
+          <caret line="43" column="70" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="70" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fancy-nacos/src/main/java/org/fancy/nacos/FancyNacosApplication.java">
+    <entry file="file://$PROJECT_DIR$/fancy-rpc/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        <state relative-caret-position="454">
+          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fancy-nacos/pom.xml">
+    <entry file="file://$PROJECT_DIR$/fancy-rpc/fancy-rpc-consumer/src/main/java/org/fancy/rpc/consumer/RpcConsumer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="60" column="11" lean-forward="true" selection-start-line="60" selection-start-column="11" selection-end-line="60" selection-end-column="11" />
+        <state relative-caret-position="112">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fancy-redis/redis-lock/src/main/java/org/fancy/redis/lock/RedisLockApplication.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/reflect/InvocationHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="240">
+          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/Thread.java">
+    <entry file="file://$PROJECT_DIR$/fancy-rpc/fancy-rpc-consumer/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="2015" lean-forward="true" selection-start-line="2015" selection-end-line="2015" />
+        <state relative-caret-position="542">
+          <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/tools/maven/repository/io/netty/netty-all/4.1.50.Final/netty-all-4.1.50.Final-sources.jar!/io/netty/handler/codec/LengthFieldPrepender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="71" column="53" selection-start-line="71" selection-start-column="36" selection-end-line="71" selection-end-column="53" />
           <folding>
-            <element signature="e#6683#6684#0" expanded="true" />
-            <element signature="e#6723#6724#0" expanded="true" />
-            <element signature="e#14796#14797#0" expanded="true" />
-            <element signature="e#14860#14861#0" expanded="true" />
-            <element signature="e#15480#15481#0" expanded="true" />
-            <element signature="e#15546#15547#0" expanded="true" />
+            <element signature="e#2348#2349#0" expanded="true" />
+            <element signature="e#2394#2395#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fancy-rpc/fancy-rpc-remoting/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="1780" column="18" selection-start-line="1780" selection-start-column="18" selection-end-line="1780" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/reflect/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="483" column="18" selection-start-line="483" selection-start-column="18" selection-end-line="483" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fancy-rpc/fancy-rpc-provider/fancy-rpc-provider.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fancy-rpc/fancy-rpc-provider/src/main/java/org/fancy/rpc/service/ArithmeticOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#173#174#0" expanded="true" />
+            <element signature="e#201#202#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fancy-rpc/fancy-rpc-registry/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="784">
+          <caret line="28" column="42" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/tools/maven/repository/io/netty/netty-all/4.1.50.Final/netty-all-4.1.50.Final-sources.jar!/io/netty/channel/nio/AbstractNioByteChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="282" selection-start-line="282" selection-end-line="282" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/reflect/Proxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="702" column="25" selection-start-line="702" selection-start-column="25" selection-end-line="702" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fancy-rpc/fancy-rpc-registry/src/test/java/org/fancy/rpc/registry/RegistryServerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+          <folding>
+            <element signature="e#133#134#0" expanded="true" />
+            <element signature="e#181#182#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fancy-rpc/fancy-rpc-consumer/src/test/java/org/fancy/rpc/consumer/RpcConsumerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="11" column="57" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fancy-rpc/fancy-rpc-remoting/src/main/java/org/fancy/rpc/remoting/RpcProtocol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/tools/maven/repository/io/netty/netty-all/4.1.50.Final/netty-all-4.1.50.Final-sources.jar!/io/netty/handler/codec/LengthFieldBasedFrameDecoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="396" selection-start-line="396" selection-end-line="396" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/tools/maven/repository/io/netty/netty-all/4.1.50.Final/netty-all-4.1.50.Final-sources.jar!/io/netty/handler/codec/serialization/ObjectDecoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
+          <folding>
+            <element signature="e#1829#1830#0" expanded="true" />
+            <element signature="e#1873#1874#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fancy-rpc/fancy-rpc-consumer/src/main/java/org/fancy/rpc/consumer/RpcProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="41" column="64" lean-forward="true" selection-start-line="41" selection-start-column="64" selection-end-line="41" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fancy-rpc/fancy-rpc-registry/src/main/java/org/fancy/rpc/registry/RegistryServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="80" selection-start-line="80" selection-end-line="80" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#884#885#0" expanded="true" />
+            <element signature="e#916#917#0" expanded="true" />
+            <element signature="e#1198#2007#0" expanded="true" />
+            <element signature="e#2006#2007#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fancy-rpc/fancy-rpc-consumer/src/main/java/org/fancy/rpc/consumer/ConsumerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1453,7 +1447,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>fancy-netty</last-edited>
+          <last-edited>fancy-rpc-registry</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

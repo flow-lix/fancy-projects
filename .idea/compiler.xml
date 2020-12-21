@@ -6,24 +6,36 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="redis-lock" />
-        <module name="fancy-redis" />
-        <module name="fancy-netty" />
-        <module name="fancy-nacos" />
-        <module name="fancy-interview" />
-        <module name="redis-basic" />
+        <module name="fancy-rpc-provider" />
         <module name="fancy-rtmp" />
+        <module name="fancy-rpc-remoting" />
+        <module name="redis-basic" />
+        <module name="fancy-redis" />
+        <module name="fancy-interview" />
+        <module name="redis-lock" />
+        <module name="fancy-rpc-consumer" />
+        <module name="fancy-netty" />
+        <module name="fancy-rpc-api" />
+        <module name="fancy-tomcat" />
+        <module name="fancy-rpc-registry" />
         <module name="fancy-http" />
+        <module name="fancy-nacos" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="fancy-http" options="-parameters" />
-      <module name="fancy-nacos" options="-parameters" />
+      <module name="fancy-netty" options="-parameters" />
       <module name="fancy-redis" options="-parameters" />
-      <module name="redis-basic" options="-parameters" />
-      <module name="redis-lock" options="-parameters" />
+      <module name="fancy-rpc" options="" />
+      <module name="fancy-rpc-api" options="-parameters" />
+      <module name="fancy-rpc-consumer" options="-parameters" />
+      <module name="fancy-rpc-provider" options="-parameters" />
+      <module name="fancy-rpc-registry" options="-parameters" />
+      <module name="fancy-rpc-remoting" options="-parameters" />
+      <module name="fancy-rtmp" options="-parameters" />
+      <module name="fancy-tomcat" options="-parameters" />
     </option>
   </component>
 </project>
