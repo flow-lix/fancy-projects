@@ -6,16 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="fancy-tomcat" />
-        <module name="fancy-rpc-consumer" />
-        <module name="fancy-rtmp" />
-        <module name="fancy-redis" />
-        <module name="fancy-netty" />
         <module name="fancy-rpc-provider" />
+        <module name="fancy-rtmp" />
         <module name="fancy-rpc-remoting" />
+        <module name="redis-basic" />
+        <module name="fancy-redis" />
+        <module name="fancy-interview" />
+        <module name="redis-lock" />
+        <module name="fancy-rpc-consumer" />
+        <module name="fancy-netty" />
+        <module name="fancy-rpc-api" />
+        <module name="fancy-tomcat" />
         <module name="fancy-rpc-registry" />
         <module name="fancy-http" />
-        <module name="fancy-rpc-api" />
+        <module name="fancy-nacos" />
       </profile>
     </annotationProcessing>
   </component>

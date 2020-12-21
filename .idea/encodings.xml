@@ -3,8 +3,12 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/fancy-http" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fancy-interview" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fancy-nacos" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/fancy-netty" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/fancy-redis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fancy-redis/redis-basic" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fancy-redis/redis-lock" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/fancy-rpc" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/fancy-rpc/fancy-rpc-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/fancy-rpc/fancy-rpc-consumer" charset="UTF-8" />
