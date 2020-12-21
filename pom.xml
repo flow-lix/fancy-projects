@@ -21,6 +21,7 @@
         <module>fancy-http</module>
         <module>fancy-rtmp</module>
         <module>fancy-tomcat</module>
+        <module>fancy-rpc</module>
     </modules>
 
     <dependencies>
