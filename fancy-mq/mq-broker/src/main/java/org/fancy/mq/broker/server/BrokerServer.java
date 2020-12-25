@@ -18,6 +18,7 @@ import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
 import io.netty.handler.codec.DelimiterBasedFrameDecoder;
+import io.netty.handler.codec.LengthFieldBasedFrameDecoder;
 import io.netty.handler.codec.serialization.ClassResolvers;
 import io.netty.handler.codec.serialization.ObjectDecoder;
 import io.netty.handler.codec.serialization.ObjectEncoder;
@@ -57,9 +58,9 @@ public class BrokerServer {
                         protected void initChannel(SocketChannel channel) throws Exception {
                             channel.pipeline()
                                     .addLast(new StringEncoder())
-                                    // 给定长度里找不到分隔符就抛出异常，防止异常码流缺失分隔符导致内存溢出;  分隔符缓存对象
                                     .addLast(new DelimiterBasedFrameDecoder(1024, Unpooled.copiedBuffer("$_".getBytes())))
-                                    .addLast(new ObjectDecoder(Integer.MAX_VALUE, ClassResolvers.cacheDisabled(null)))
+                                    // 给定长度里找不到分隔符就抛出异常，防止异常码流缺失分隔符导致内存溢出;  分隔符缓存对象
+                                    .addLast(new StringDecoder())
                                     .addLast("handler", new BrokerHandler());
                         }
                     });
@@ -74,6 +75,9 @@ public class BrokerServer {
         }
     }
 
+    /**
+     * Broker handler
+     */
     @ChannelHandler.Sharable
     static class BrokerHandler extends ChannelInboundHandlerAdapter {
 
