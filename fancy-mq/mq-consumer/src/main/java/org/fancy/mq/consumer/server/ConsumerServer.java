@@ -18,16 +18,14 @@ import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioSocketChannel;
 import io.netty.handler.codec.DelimiterBasedFrameDecoder;
-import io.netty.handler.codec.serialization.ClassResolvers;
-import io.netty.handler.codec.serialization.ObjectDecoder;
-import io.netty.handler.codec.serialization.ObjectEncoder;
 import io.netty.handler.codec.string.StringDecoder;
 import io.netty.handler.codec.string.StringEncoder;
 import lombok.extern.slf4j.Slf4j;
-import org.fancy.mq.common.Message;
+import org.fancy.mq.common.PushRequest;
 import org.fancy.mq.common.req.PullRequest;
 import org.fancy.mq.common.resp.PullResponse;
 
+import java.nio.charset.StandardCharsets;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.TimeUnit;
 
@@ -41,7 +39,7 @@ public class ConsumerServer {
         System.out.println("Received :" + server.consumeMessage("localhost", 8000));
     }
 
-    private Message consumeMessage(String ip, int port) throws InterruptedException {
+    private PushRequest consumeMessage(String ip, int port) throws InterruptedException {
         CountDownLatch latch = new CountDownLatch(1);
 
         PullResponse response = new PullResponse();
@@ -70,9 +68,9 @@ public class ConsumerServer {
                         @Override
                         protected void initChannel(SocketChannel channel) throws Exception {
                             channel.pipeline()
-                                    .addLast(new StringEncoder())
+                                    .addLast(new StringEncoder(StandardCharsets.UTF_8))
                                     .addLast(new DelimiterBasedFrameDecoder(1024, Unpooled.copiedBuffer("$_".getBytes())))
-                                    .addLast(new ObjectDecoder(1024, ClassResolvers.cacheDisabled(null)))
+                                    .addLast(new StringDecoder(StandardCharsets.UTF_8))
                                     .addLast("producer-handler", consumerHandler);
                         }
                     });

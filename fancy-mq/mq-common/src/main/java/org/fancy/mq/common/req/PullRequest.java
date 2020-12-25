@@ -1,10 +1,11 @@
-/**
- * @Copyright (c) 2019, Denali System Co., Ltd. All Rights Reserved.
- * Website: www.denalisystem.com | Email: marketing@denalisystem.com
- */
 package org.fancy.mq.common.req;
 
-public class PullRequest {
+import org.fancy.mq.common.AbstractMessage;
+
+/**
+ * @author lxiang
+ */
+public class PullRequest extends AbstractMessage {
 
     private long offset;
 

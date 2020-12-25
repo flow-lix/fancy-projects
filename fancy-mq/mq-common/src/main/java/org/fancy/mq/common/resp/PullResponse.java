@@ -1,25 +1,30 @@
-/**
- * @Copyright (c) 2019, Denali System Co., Ltd. All Rights Reserved.
- * Website: www.denalisystem.com | Email: marketing@denalisystem.com
- */
 package org.fancy.mq.common.resp;
 
-import org.fancy.mq.common.Message;
+import org.fancy.mq.common.AbstractMessage;
 
 import java.util.concurrent.CountDownLatch;
 
-public class PullResponse {
+public class PullResponse extends AbstractMessage {
 
-    private Message message;
+    private String name;
+    private long timestamp;
 
     private transient CountDownLatch latch;
 
-    public Message getMessage() {
-        return message;
+    public String getName() {
+        return name;
     }
 
-    public void setMessage(Message message) {
-        this.message = message;
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public long getTimestamp() {
+        return timestamp;
+    }
+
+    public void setTimestamp(long timestamp) {
+        this.timestamp = timestamp;
     }
 
     public void countDown() {

@@ -10,26 +10,24 @@ import io.netty.buffer.Unpooled;
 import io.netty.channel.ChannelFuture;
 import io.netty.channel.ChannelHandler;
 import io.netty.channel.ChannelHandlerContext;
-import io.netty.channel.ChannelInboundHandlerAdapter;
 import io.netty.channel.ChannelInitializer;
 import io.netty.channel.ChannelOption;
 import io.netty.channel.EventLoopGroup;
+import io.netty.channel.SimpleChannelInboundHandler;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
 import io.netty.handler.codec.DelimiterBasedFrameDecoder;
-import io.netty.handler.codec.LengthFieldBasedFrameDecoder;
-import io.netty.handler.codec.serialization.ClassResolvers;
-import io.netty.handler.codec.serialization.ObjectDecoder;
-import io.netty.handler.codec.serialization.ObjectEncoder;
 import io.netty.handler.codec.string.StringDecoder;
 import io.netty.handler.codec.string.StringEncoder;
 import lombok.extern.slf4j.Slf4j;
 import org.fancy.mq.broker.queue.BrokerQueue;
-import org.fancy.mq.common.Message;
+import org.fancy.mq.common.AbstractMessage;
+import org.fancy.mq.common.PushRequest;
 import org.fancy.mq.common.req.PullRequest;
-import org.fancy.mq.common.req.PushRequest;
 import org.fancy.mq.common.resp.PushResponse;
+
+import java.nio.charset.StandardCharsets;
 
 import static org.fancy.mq.common.MqConstant.DELIMITER;
 
@@ -57,10 +55,10 @@ public class BrokerServer {
                         @Override
                         protected void initChannel(SocketChannel channel) throws Exception {
                             channel.pipeline()
-                                    .addLast(new StringEncoder())
+                                    .addLast(new StringEncoder(StandardCharsets.UTF_8))
                                     .addLast(new DelimiterBasedFrameDecoder(1024, Unpooled.copiedBuffer("$_".getBytes())))
                                     // 给定长度里找不到分隔符就抛出异常，防止异常码流缺失分隔符导致内存溢出;  分隔符缓存对象
-                                    .addLast(new StringDecoder())
+                                    .addLast(new StringDecoder(StandardCharsets.UTF_8))
                                     .addLast("handler", new BrokerHandler());
                         }
                     });
@@ -79,24 +77,24 @@ public class BrokerServer {
      * Broker handler
      */
     @ChannelHandler.Sharable
-    static class BrokerHandler extends ChannelInboundHandlerAdapter {
-
+    static class BrokerHandler extends SimpleChannelInboundHandler<String> {
         /**
          * Broker read msg
          */
         @Override
-        public void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception {
-            if (msg instanceof PushRequest) {
+        protected void channelRead0(ChannelHandlerContext ctx, String msg) throws Exception {
+            AbstractMessage req = JSON.parseObject(msg, AbstractMessage.class);
+            if (req instanceof PushRequest) {
                 // 1.接收并存储生产者的数据；
-                if (BrokerQueue.offer(((PushRequest) msg).getMessage())) {
+                if (BrokerQueue.offer((PushRequest) req)) {
                     ctx.writeAndFlush(JSON.toJSONString(PushResponse.SUCCESS) + DELIMITER);
                 } else {
                     ctx.writeAndFlush(JSON.toJSONString(PushResponse.failOf("Broker full!")) + DELIMITER);
                 }
-            } else if (msg instanceof PullRequest) {
+            } else if (req instanceof PullRequest) {
                 // 2.给消费者发送数据
-                long offset = ((PullRequest) msg).getOffset();
-                Message message = BrokerQueue.pull((int) offset);
+                long offset = ((PullRequest) req).getOffset();
+                PushRequest message = BrokerQueue.pull((int) offset);
                 ctx.writeAndFlush(JSON.toJSONString(message) + DELIMITER) ;
             } else {
                 log.warn("Unexpected msg: {}", msg);

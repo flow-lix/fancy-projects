@@ -4,21 +4,13 @@
  */
 package org.fancy.mq.common;
 
-import java.io.Serializable;
+/**
+ * 能否继承私有变量
+ */
+public class PushRequest extends AbstractMessage {
 
-public class Message implements Serializable {
-
-    private Long id;
     private String name;
     private long timestamp;
-
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
 
     public long getTimestamp() {
         return timestamp;

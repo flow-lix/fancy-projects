@@ -18,13 +18,15 @@ import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioSocketChannel;
 import io.netty.handler.codec.DelimiterBasedFrameDecoder;
-import io.netty.handler.codec.serialization.ClassResolvers;
-import io.netty.handler.codec.serialization.ObjectDecoder;
+import io.netty.handler.codec.string.StringDecoder;
 import io.netty.handler.codec.string.StringEncoder;
 import lombok.extern.slf4j.Slf4j;
-import org.fancy.mq.common.Message;
+import org.fancy.mq.common.PushRequest;
+
+import java.nio.charset.StandardCharsets;
 
 import static org.fancy.mq.common.MqConstant.DELIMITER;
+import static org.fancy.mq.common.MqConstant.PUSH_REQUEST;
 
 @Slf4j
 public class ProdurceClient {
@@ -45,19 +47,20 @@ public class ProdurceClient {
                         @Override
                         protected void initChannel(SocketChannel channel) throws Exception {
                             channel.pipeline()
-                                    .addLast(new StringEncoder())
+                                    .addLast(new StringEncoder(StandardCharsets.UTF_8))
                                     .addLast(new DelimiterBasedFrameDecoder(1024, Unpooled.copiedBuffer(DELIMITER.getBytes())))
-                                    .addLast(new ObjectDecoder(Integer.MAX_VALUE, ClassResolvers.cacheDisabled(null)))
+                                    .addLast(new StringDecoder(StandardCharsets.UTF_8))
                                     .addLast("producer-handler", new ProducerHandler());
                         }
                     });
             ChannelFuture future = client.connect(ip, port).sync();
             Channel channel = future.channel();
-            Message message = new Message();
-            message.setId(1L);
-            message.setName("dog");
-            message.setTimestamp(System.currentTimeMillis());
-            channel.writeAndFlush(JSON.toJSONString(message) + DELIMITER);
+
+            PushRequest push = new PushRequest();
+            push.setCode(PUSH_REQUEST);
+            push.setName("dog");
+            push.setTimestamp(System.currentTimeMillis());
+            channel.writeAndFlush(JSON.toJSONString(push) + DELIMITER);
             channel.closeFuture().sync();
         } catch (InterruptedException e) {
             log.info("Produce server was terminated unexpected!", e);
