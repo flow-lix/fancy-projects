@@ -1,12 +1,6 @@
-/**
- * @Copyright (c) 2019, Denali System Co., Ltd. All Rights Reserved.
- * Website: www.denalisystem.com | Email: marketing@denalisystem.com
- */
 package org.fancy.mq.producer.server;
 
-import com.alibaba.fastjson.JSON;
 import io.netty.bootstrap.Bootstrap;
-import io.netty.buffer.Unpooled;
 import io.netty.channel.Channel;
 import io.netty.channel.ChannelFuture;
 import io.netty.channel.ChannelHandlerContext;
@@ -17,15 +11,13 @@ import io.netty.channel.EventLoopGroup;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioSocketChannel;
-import io.netty.handler.codec.DelimiterBasedFrameDecoder;
-import io.netty.handler.codec.string.StringDecoder;
-import io.netty.handler.codec.string.StringEncoder;
 import lombok.extern.slf4j.Slf4j;
 import org.fancy.mq.common.PushRequest;
-
-import java.nio.charset.StandardCharsets;
-
-import static org.fancy.mq.common.MqConstant.DELIMITER;
+import org.fancy.mq.core.compressor.CompressorType;
+import org.fancy.mq.core.protocol.ProtocolDecoder;
+import org.fancy.mq.core.protocol.ProtocolEncoder;
+import org.fancy.mq.core.protocol.RpcMessage;
+import org.fancy.mq.core.serializer.SerializerType;
 import static org.fancy.mq.common.MqConstant.PUSH_REQUEST;
 
 @Slf4j
@@ -47,20 +39,24 @@ public class ProdurceClient {
                         @Override
                         protected void initChannel(SocketChannel channel) throws Exception {
                             channel.pipeline()
-                                    .addLast(new StringEncoder(StandardCharsets.UTF_8))
-                                    .addLast(new DelimiterBasedFrameDecoder(1024, Unpooled.copiedBuffer(DELIMITER.getBytes())))
-                                    .addLast(new StringDecoder(StandardCharsets.UTF_8))
+                                    .addLast(new ProtocolDecoder())
+                                    .addLast(new ProtocolEncoder())
                                     .addLast("producer-handler", new ProducerHandler());
                         }
                     });
             ChannelFuture future = client.connect(ip, port).sync();
             Channel channel = future.channel();
 
+            RpcMessage response = new RpcMessage();
+            response.setMsgType(PUSH_REQUEST);
+            response.setCompressor(CompressorType.NONE.getCode());
+            response.setSerializer(SerializerType.JSON.getCode());
             PushRequest push = new PushRequest();
-            push.setCode(PUSH_REQUEST);
             push.setName("dog");
             push.setTimestamp(System.currentTimeMillis());
-            channel.writeAndFlush(JSON.toJSONString(push) + DELIMITER);
+            response.setBody(push);
+            channel.writeAndFlush(response);
+
             channel.closeFuture().sync();
         } catch (InterruptedException e) {
             log.info("Produce server was terminated unexpected!", e);

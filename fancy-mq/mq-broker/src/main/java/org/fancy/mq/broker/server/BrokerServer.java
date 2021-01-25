@@ -1,12 +1,7 @@
-/**
- * @Copyright (c) 2019, Denali System Co., Ltd. All Rights Reserved.
- * Website: www.denalisystem.com | Email: marketing@denalisystem.com
- */
 package org.fancy.mq.broker.server;
 
 import com.alibaba.fastjson.JSON;
 import io.netty.bootstrap.ServerBootstrap;
-import io.netty.buffer.Unpooled;
 import io.netty.channel.ChannelFuture;
 import io.netty.channel.ChannelHandler;
 import io.netty.channel.ChannelHandlerContext;
@@ -17,19 +12,21 @@ import io.netty.channel.SimpleChannelInboundHandler;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
-import io.netty.handler.codec.DelimiterBasedFrameDecoder;
-import io.netty.handler.codec.string.StringDecoder;
-import io.netty.handler.codec.string.StringEncoder;
 import lombok.extern.slf4j.Slf4j;
 import org.fancy.mq.broker.queue.BrokerQueue;
-import org.fancy.mq.common.AbstractMessage;
 import org.fancy.mq.common.PushRequest;
 import org.fancy.mq.common.req.PullRequest;
+import org.fancy.mq.common.resp.PullResponse;
 import org.fancy.mq.common.resp.PushResponse;
+import org.fancy.mq.core.compressor.CompressorType;
+import org.fancy.mq.core.protocol.ProtocolDecoder;
+import org.fancy.mq.core.protocol.ProtocolEncoder;
+import org.fancy.mq.core.protocol.RpcMessage;
+import org.fancy.mq.core.serializer.SerializerType;
 
-import java.nio.charset.StandardCharsets;
-
-import static org.fancy.mq.common.MqConstant.DELIMITER;
+import static org.fancy.mq.common.MqConstant.PULL_REQUEST;
+import static org.fancy.mq.common.MqConstant.PUSH_REQUEST;
+import static org.fancy.mq.common.MqConstant.PUSH_RESPONSE;
 
 /**
  * Broker服务端
@@ -55,10 +52,8 @@ public class BrokerServer {
                         @Override
                         protected void initChannel(SocketChannel channel) throws Exception {
                             channel.pipeline()
-                                    .addLast(new StringEncoder(StandardCharsets.UTF_8))
-                                    .addLast(new DelimiterBasedFrameDecoder(1024, Unpooled.copiedBuffer("$_".getBytes())))
-                                    // 给定长度里找不到分隔符就抛出异常，防止异常码流缺失分隔符导致内存溢出;  分隔符缓存对象
-                                    .addLast(new StringDecoder(StandardCharsets.UTF_8))
+                                    .addLast(new ProtocolDecoder())
+                                    .addLast(new ProtocolEncoder())
                                     .addLast("handler", new BrokerHandler());
                         }
                     });
@@ -77,25 +72,35 @@ public class BrokerServer {
      * Broker handler
      */
     @ChannelHandler.Sharable
-    static class BrokerHandler extends SimpleChannelInboundHandler<String> {
+    static class BrokerHandler extends SimpleChannelInboundHandler<RpcMessage> {
         /**
          * Broker read msg
          */
         @Override
-        protected void channelRead0(ChannelHandlerContext ctx, String msg) throws Exception {
-            AbstractMessage req = JSON.parseObject(msg, AbstractMessage.class);
-            if (req instanceof PushRequest) {
+        protected void channelRead0(ChannelHandlerContext ctx, RpcMessage msg) throws Exception {
+            short msgType = msg.getMsgType();
+            if (msgType == PUSH_REQUEST) {
                 // 1.接收并存储生产者的数据；
-                if (BrokerQueue.offer((PushRequest) req)) {
-                    ctx.writeAndFlush(JSON.toJSONString(PushResponse.SUCCESS) + DELIMITER);
+                if (BrokerQueue.add((PushRequest) msg.getBody())) {
+                    log.info("Produce new message!");
                 } else {
-                    ctx.writeAndFlush(JSON.toJSONString(PushResponse.failOf("Broker full!")) + DELIMITER);
+                    log.error("Broker full!");
                 }
-            } else if (req instanceof PullRequest) {
+            } else if (msgType == PULL_REQUEST) {
+                log.info("consume message...");
                 // 2.给消费者发送数据
-                long offset = ((PullRequest) req).getOffset();
-                PushRequest message = BrokerQueue.pull((int) offset);
-                ctx.writeAndFlush(JSON.toJSONString(message) + DELIMITER) ;
+                long offset = ((PullRequest) msg.getBody()).getOffset();
+                PushRequest req = BrokerQueue.pull((int) offset);
+                PullResponse resp = new PullResponse();
+                resp.setName(req.getName());
+                resp.setTimestamp(req.getTimestamp());
+
+                RpcMessage response = new RpcMessage();
+                response.setMsgType(PUSH_RESPONSE);
+                response.setCompressor(CompressorType.NONE.getCode());
+                response.setSerializer(SerializerType.JSON.getCode());
+                response.setBody(resp);
+                ctx.writeAndFlush(response) ;
             } else {
                 log.warn("Unexpected msg: {}", msg);
             }

@@ -1,15 +1,13 @@
-/**
- * @Copyright (c) 2019, Denali System Co., Ltd. All Rights Reserved.
- * Website: www.denalisystem.com | Email: marketing@denalisystem.com
- */
 package org.fancy.mq.common;
 
 import java.io.Serializable;
 
 /**
+ * @author l
  * 实现Serializable有什么用？
  */
 public abstract class AbstractMessage implements Serializable {
+    private static final long serialVersionUID = -9033908852614213062L;
 
     private short code;
 

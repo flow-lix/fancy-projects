@@ -1,6 +1,3 @@
-/**
- * @Copyright (c) 2017, 广电运通信息科技有限公司 All Rights Reserved.
- */
 package org.fancy.mq.broker.server;
 
 public final class Response<T> {

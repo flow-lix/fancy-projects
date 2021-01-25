@@ -27,5 +27,11 @@
             <artifactId>fastjson</artifactId>
             <version>1.2.72</version>
         </dependency>
+        <dependency>
+            <groupId>org.fancy.mq</groupId>
+            <artifactId>mq-core</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
     </dependencies>
 </project>

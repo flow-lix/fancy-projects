@@ -1,12 +1,6 @@
-/**
- * @Copyright (c) 2019, Denali System Co., Ltd. All Rights Reserved.
- * Website: www.denalisystem.com | Email: marketing@denalisystem.com
- */
 package org.fancy.mq.consumer.server;
 
-import com.alibaba.fastjson.JSON;
 import io.netty.bootstrap.Bootstrap;
-import io.netty.buffer.Unpooled;
 import io.netty.channel.Channel;
 import io.netty.channel.ChannelFuture;
 import io.netty.channel.ChannelHandlerContext;
@@ -17,19 +11,21 @@ import io.netty.channel.EventLoopGroup;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioSocketChannel;
-import io.netty.handler.codec.DelimiterBasedFrameDecoder;
-import io.netty.handler.codec.string.StringDecoder;
-import io.netty.handler.codec.string.StringEncoder;
+import io.netty.util.concurrent.DefaultThreadFactory;
 import lombok.extern.slf4j.Slf4j;
-import org.fancy.mq.common.PushRequest;
 import org.fancy.mq.common.req.PullRequest;
 import org.fancy.mq.common.resp.PullResponse;
+import org.fancy.mq.consumer.AsyncResponse;
+import org.fancy.mq.core.compressor.CompressorType;
+import org.fancy.mq.core.protocol.ProtocolDecoder;
+import org.fancy.mq.core.protocol.ProtocolEncoder;
+import org.fancy.mq.core.protocol.RpcMessage;
+import org.fancy.mq.core.serializer.SerializerType;
 
-import java.nio.charset.StandardCharsets;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.TimeUnit;
 
-import static org.fancy.mq.common.MqConstant.DELIMITER;
+import static org.fancy.mq.common.MqConstant.PULL_REQUEST;
 
 @Slf4j
 public class ConsumerServer {
@@ -39,25 +35,29 @@ public class ConsumerServer {
         System.out.println("Received :" + server.consumeMessage("localhost", 8000));
     }
 
-    private PushRequest consumeMessage(String ip, int port) throws InterruptedException {
+    private PullResponse consumeMessage(String ip, int port) throws InterruptedException {
         CountDownLatch latch = new CountDownLatch(1);
-
-        PullResponse response = new PullResponse();
+        AsyncResponse response = new AsyncResponse(latch);
         Channel channel = getChannel(ip, port, response);
         if (channel != null) {
             PullRequest request = new PullRequest();
             request.setOffset(1);
-            channel.writeAndFlush(JSON.toJSONString(request) + DELIMITER);
-            if (!latch.await(3000, TimeUnit.MILLISECONDS)) {
+            RpcMessage req = new RpcMessage();
+            req.setMsgType(PULL_REQUEST);
+            req.setCompressor(CompressorType.NONE.getCode());
+            req.setSerializer(SerializerType.JSON.getCode());
+            req.setBody(request);
+            channel.writeAndFlush(req) ;
+            if (!latch.await(5000, TimeUnit.MILLISECONDS)) {
                 log.warn("No available msg!");
             }
         }
-        return response.getMessage();
+        return response.getResponse();
     }
 
-    private Channel getChannel(String ip, int port, PullResponse pullResponse) {
+    private Channel getChannel(String ip, int port, AsyncResponse pullResponse) {
         Bootstrap client = new Bootstrap();
-        EventLoopGroup worker = new NioEventLoopGroup();
+        EventLoopGroup worker = new NioEventLoopGroup(new DefaultThreadFactory("Consumer", true));
         Channel channel = null;
         ConsumerHandler consumerHandler = new ConsumerHandler(pullResponse);
         try {
@@ -68,9 +68,8 @@ public class ConsumerServer {
                         @Override
                         protected void initChannel(SocketChannel channel) throws Exception {
                             channel.pipeline()
-                                    .addLast(new StringEncoder(StandardCharsets.UTF_8))
-                                    .addLast(new DelimiterBasedFrameDecoder(1024, Unpooled.copiedBuffer("$_".getBytes())))
-                                    .addLast(new StringDecoder(StandardCharsets.UTF_8))
+                                    .addLast(new ProtocolDecoder())
+                                    .addLast(new ProtocolEncoder())
                                     .addLast("producer-handler", consumerHandler);
                         }
                     });
@@ -80,35 +79,27 @@ public class ConsumerServer {
             log.info("Produce server was terminated unexpected!", e);
             Thread.currentThread().interrupt();
         } finally {
-            worker.shutdownGracefully();
+//            worker.shutdownGracefully();
         }
         return channel;
     }
 
     class ConsumerHandler extends ChannelInboundHandlerAdapter {
 
-        private PullResponse pullResponse;
+        private AsyncResponse response;
 
-        ConsumerHandler(PullResponse pullResponse) {
-            this.pullResponse = pullResponse;
+        ConsumerHandler(AsyncResponse pullResponse) {
+            this.response = pullResponse;
         }
 
         @Override
         public void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception {
-            if (msg instanceof PullResponse) {
-                setPullResponse((PullResponse) msg);
-                pullResponse.countDown();
+            if (msg instanceof RpcMessage) {
+                response.setResponse((PullResponse) ((RpcMessage) msg).getBody());
+                response.countDown();
             } else {
                 log.warn("Unexpected msg: {}", msg);
             }
-        }
-
-        public PullResponse getPullResponse() {
-            return pullResponse;
-        }
-
-        public void setPullResponse(PullResponse pullResponse) {
-            this.pullResponse = pullResponse;
         }
     }
 }

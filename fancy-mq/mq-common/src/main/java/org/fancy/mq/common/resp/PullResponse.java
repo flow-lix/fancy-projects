@@ -30,4 +30,12 @@ public class PullResponse extends AbstractMessage {
     public void countDown() {
         this.latch.countDown();
     }
+
+    @Override
+    public String toString() {
+        return "PullResponse{" +
+                "name='" + name + '\'' +
+                ", timestamp=" + timestamp +
+                '}';
+    }
 }
