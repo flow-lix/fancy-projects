@@ -19,6 +19,7 @@
         <module>mq-broker</module>
         <module>mq-producer</module>
         <module>mq-consumer</module>
+        <module>mq-client</module>
         <module>mq-common</module>
         <module>mq-core</module>
     </modules>
@@ -52,14 +53,12 @@
         </dependency>
 
         <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+        </dependency>
+        <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>fastjson</artifactId>
-            <version>1.2.72</version>
         </dependency>
 
         <dependency>

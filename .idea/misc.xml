@@ -9,6 +9,11 @@
         <option value="$PROJECT_DIR$/fancy-redis/redis-basic/pom.xml" />
         <option value="$PROJECT_DIR$/fancy-redis/redis-lock/pom.xml" />
         <option value="$PROJECT_DIR$/fancy-nacos/pom.xml" />
+        <option value="$PROJECT_DIR$/fancy-mq/pom.xml" />
+        <option value="$PROJECT_DIR$/fancy-mq/fancy-mq-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/fancy-mq/fancy-mq-producer/pom.xml" />
+        <option value="$PROJECT_DIR$/fancy-mq/fancy-mq-common/pom.xml" />
+        <option value="$PROJECT_DIR$/fancy-mq/mq-broker/pom.xml" />
       </list>
     </option>
   </component>

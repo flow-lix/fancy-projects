@@ -9,7 +9,7 @@
     </parent>
     <artifactId>mq-common</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>fancy-mq-common</name>
+    <name>mq-common</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
