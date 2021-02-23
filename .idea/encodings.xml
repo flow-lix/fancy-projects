@@ -3,7 +3,13 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/fancy-http" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/fancy-interview" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fancy-mq" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fancy-mq/mq-broker" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fancy-mq/mq-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fancy-mq/mq-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fancy-mq/mq-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fancy-mq/mq-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fancy-mq/mq-producer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/fancy-nacos" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/fancy-netty" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/fancy-redis" charset="UTF-8" />

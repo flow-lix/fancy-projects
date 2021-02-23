@@ -7,25 +7,35 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="fancy-rpc-provider" />
+        <module name="mq-producer" />
+        <module name="mq-core" />
         <module name="fancy-rtmp" />
         <module name="fancy-rpc-remoting" />
         <module name="redis-basic" />
-        <module name="fancy-redis" />
-        <module name="fancy-interview" />
         <module name="redis-lock" />
         <module name="fancy-rpc-consumer" />
         <module name="fancy-netty" />
+        <module name="fancy-redis" />
         <module name="fancy-rpc-api" />
-        <module name="fancy-tomcat" />
-        <module name="fancy-rpc-registry" />
+        <module name="mq-common" />
         <module name="fancy-http" />
+        <module name="fancy-tomcat" />
+        <module name="mq-client" />
+        <module name="fancy-rpc-registry" />
+        <module name="mq-consumer" />
+        <module name="mq-broker" />
         <module name="fancy-nacos" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="fancy-interview" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="fancy-http" options="-parameters" />
+      <module name="fancy-mq" options="-parameters" />
+      <module name="fancy-nacos" options="-parameters" />
       <module name="fancy-netty" options="-parameters" />
       <module name="fancy-redis" options="-parameters" />
       <module name="fancy-rpc" options="" />
@@ -36,6 +46,14 @@
       <module name="fancy-rpc-remoting" options="-parameters" />
       <module name="fancy-rtmp" options="-parameters" />
       <module name="fancy-tomcat" options="-parameters" />
+      <module name="mq-broker" options="-parameters" />
+      <module name="mq-client" options="-parameters" />
+      <module name="mq-common" options="-parameters" />
+      <module name="mq-consumer" options="-parameters" />
+      <module name="mq-core" options="-parameters" />
+      <module name="mq-producer" options="-parameters" />
+      <module name="redis-basic" options="-parameters" />
+      <module name="redis-lock" options="-parameters" />
     </option>
   </component>
 </project>
