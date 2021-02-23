@@ -1,6 +1,6 @@
-package org.fancy.mq.common.req;
+package org.fancy.mq.core.req;
 
-import org.fancy.mq.common.AbstractMessage;
+import org.fancy.mq.core.AbstractMessage;
 
 /**
  * @author lxiang

@@ -13,8 +13,8 @@ import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioSocketChannel;
 import io.netty.util.concurrent.DefaultThreadFactory;
 import lombok.extern.slf4j.Slf4j;
-import org.fancy.mq.common.req.PullRequest;
-import org.fancy.mq.common.resp.PullResponse;
+import org.fancy.mq.core.req.PullRequest;
+import org.fancy.mq.core.resp.PullResponse;
 import org.fancy.mq.consumer.AsyncResponse;
 import org.fancy.mq.core.compressor.CompressorType;
 import org.fancy.mq.core.protocol.ProtocolDecoder;
@@ -25,7 +25,7 @@ import org.fancy.mq.core.serializer.SerializerType;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.TimeUnit;
 
-import static org.fancy.mq.common.MqConstant.PULL_REQUEST;
+import static org.fancy.mq.core.MqConstant.PULL_REQUEST;
 
 @Slf4j
 public class ConsumerServer {

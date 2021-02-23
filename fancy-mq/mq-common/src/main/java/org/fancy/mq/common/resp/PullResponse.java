@@ -1,6 +1,6 @@
-package org.fancy.mq.common.resp;
+package org.fancy.mq.core.resp;
 
-import org.fancy.mq.common.AbstractMessage;
+import org.fancy.mq.core.AbstractMessage;
 
 import java.util.concurrent.CountDownLatch;
 

@@ -14,19 +14,18 @@ import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
 import lombok.extern.slf4j.Slf4j;
 import org.fancy.mq.broker.queue.BrokerQueue;
-import org.fancy.mq.common.PushRequest;
-import org.fancy.mq.common.req.PullRequest;
-import org.fancy.mq.common.resp.PullResponse;
-import org.fancy.mq.common.resp.PushResponse;
+import org.fancy.mq.core.PushRequest;
+import org.fancy.mq.core.req.PullRequest;
+import org.fancy.mq.core.resp.PullResponse;
 import org.fancy.mq.core.compressor.CompressorType;
 import org.fancy.mq.core.protocol.ProtocolDecoder;
 import org.fancy.mq.core.protocol.ProtocolEncoder;
 import org.fancy.mq.core.protocol.RpcMessage;
 import org.fancy.mq.core.serializer.SerializerType;
 
-import static org.fancy.mq.common.MqConstant.PULL_REQUEST;
-import static org.fancy.mq.common.MqConstant.PUSH_REQUEST;
-import static org.fancy.mq.common.MqConstant.PUSH_RESPONSE;
+import static org.fancy.mq.core.MqConstant.PULL_REQUEST;
+import static org.fancy.mq.core.MqConstant.PUSH_REQUEST;
+import static org.fancy.mq.core.MqConstant.PUSH_RESPONSE;
 
 /**
  * Broker服务端
