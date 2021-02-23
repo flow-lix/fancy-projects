@@ -4,7 +4,7 @@
  */
 package org.fancy.mq.broker.queue;
 
-import org.fancy.mq.common.PushRequest;
+import org.fancy.mq.core.PushRequest;
 
 import java.util.ArrayList;
 import java.util.concurrent.ArrayBlockingQueue;

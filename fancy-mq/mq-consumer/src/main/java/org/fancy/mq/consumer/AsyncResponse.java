@@ -1,6 +1,6 @@
 package org.fancy.mq.consumer;
 
-import org.fancy.mq.common.resp.PullResponse;
+import org.fancy.mq.core.resp.PullResponse;
 
 import java.util.concurrent.CountDownLatch;
 

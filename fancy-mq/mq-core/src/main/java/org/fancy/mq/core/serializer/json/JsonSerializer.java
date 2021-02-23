@@ -6,15 +6,15 @@ import org.fancy.mq.core.serializer.Serializer;
 /**
  * fastJSON序列化
  */
-public class JsonSerializer implements Serializer {
+public class JsonSerializer<T> implements Serializer<T> {
 
     @Override
-    public <T> byte[] serializer(T obj) {
+    public byte[] serializer(T obj) {
         return JSON.toJSONBytes(obj);
     }
 
     @Override
-    public <T> T deserializer(byte[] bytes) {
+    public T deserializer(byte[] bytes) {
         return (T)JSON.parse(bytes);
     }
 

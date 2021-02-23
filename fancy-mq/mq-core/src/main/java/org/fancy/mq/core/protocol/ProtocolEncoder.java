@@ -5,6 +5,8 @@ import io.netty.channel.ChannelHandlerContext;
 import io.netty.handler.codec.MessageToByteEncoder;
 import org.fancy.mq.core.serializer.hessian.HessianSerializer;
 import org.fancy.mq.core.serializer.json.JsonSerializer;
+import org.fancy.mq.core.serializer.protobuf.ProtobufSerializer;
+import org.fancy.mq.core.serializer.protobuf.SimpleMessage;
 
 import static org.fancy.mq.core.protocol.ProtocolConstants.MAGIC_CODE_BYTES;
 
@@ -45,7 +47,7 @@ public class ProtocolEncoder extends MessageToByteEncoder {
             int bodyLength = 0;
             if (msgType != ProtocolConstants.HEARTBEAT_REQUEST && msgType != ProtocolConstants.HEARTBEAT_RESPONSE) {
                 // 序列化
-                body = new HessianSerializer().serializer(message.getBody());
+                body = new ProtobufSerializer().serializer((SimpleMessage.ProtoMessage) message.getBody());
                 // toDo 压缩
                 out.writeBytes(body);
                 bodyLength = body.length;

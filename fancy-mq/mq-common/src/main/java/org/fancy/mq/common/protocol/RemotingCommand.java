@@ -1,4 +1,4 @@
-package org.fancy.mq.common.protocol;
+package org.fancy.mq.core.protocol;
 
 public class RemotingCommand {
 
