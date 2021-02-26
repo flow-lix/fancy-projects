@@ -1,10 +1,6 @@
-/**
- * @Copyright (c) 2019, Denali System Co., Ltd. All Rights Reserved.
- * Website: www.denalisystem.com | Email: marketing@denalisystem.com
- */
 package org.fancy.mq.broker.queue;
 
-import org.fancy.mq.core.PushRequest;
+import org.fancy.mq.common.PushRequest;
 
 import java.util.ArrayList;
 import java.util.concurrent.ArrayBlockingQueue;
