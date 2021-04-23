@@ -22,6 +22,7 @@
         <module>fancy-rtmp</module>
         <module>fancy-tomcat</module>
         <module>fancy-rpc</module>
+        <module>fancy-scheduler</module>
     </modules>
 
     <dependencies>
